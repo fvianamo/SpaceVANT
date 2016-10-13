@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 OCT 2016 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 OCT 2016 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,7 +644,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 
 
 Writing glossary file main.glo 
-No file main.aux.
+(./main.aux (./rosto.aux) (./preambulo.aux) (./resumos.aux)
+(./capitulo1/introducao.aux) (./capitulo2/estruturaSistema.aux)
+(./capitulo3/implementacoes.aux) (./capitulo4/aplicacaoTestes.aux)
+(./conclusao/conclusao.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
@@ -656,6 +659,7 @@ LaTeX Font Info:    ... okay on input line 204.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 204.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 20
 4.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
@@ -780,430 +784,90 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 
 ]) [4
 
-]
-No file main.toc.
+] (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-[1
+ [1
 
 
 
-]
-No file main.lof.
+] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
-[2
+ [2
 
 
 ]
 \openout2 = `capitulo1/introducao.aux'.
 
- (./capitulo1/introducao.tex
+
+(./capitulo1/introducao.tex
 Cap\'{\i }tulo 1.
-
-LaTeX Warning: Citation 'salazar2006instrumentaccao' on page 1 undefined on inp
-ut line 4.
-
-
-LaTeX Warning: Reference `fig:Hierarquia' on page 1 undefined on input line 6.
-
-<Hierarquia.png, id=36, 455.90324pt x 290.88675pt>
-File: Hierarquia.png Graphic file (type png)
- <use Hierarquia.png>
-Package pdftex.def Info: Hierarquia.png used on input line 11.
-(pdftex.def)             Requested size: 364.72307pt x 232.7097pt.
-
-
-LaTeX Warning: Citation 'colombo2014industrial' on page 1 undefined on input li
-ne 13.
-
-[1
+) [1
 
 
 
- <./Hierarquia.png>]
-
-LaTeX Warning: Citation 'silva2015mobile' on page 2 undefined on input line 19.
-
-
-
-LaTeX Warning: Citation 'salazar2006instrumentaccao' on page 2 undefined on inp
-ut line 21.
-
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 30.
-[2]
-Overfull \hbox (1.51859pt too wide) in paragraph at lines 32--33
-[]\T1/ptm/m/n/12 Identificar ca-rac-te-rís-ti-cas, van-ta-gens e des-van-ta-gen
-s da uti-li-za-ção de di-fe-ren-tes equi-
- []
-
-) [3]
+]
 \openout2 = `capitulo2/estruturaSistema.aux'.
 
  (./capitulo2/estruturaSistema.tex
 Cap\'{\i }tulo 2.
-
-LaTeX Warning: Reference `fig:Planta' on page 4 undefined on input line 11.
-
-<Planta.png, id=48, 673.3155pt x 259.56975pt>
-File: Planta.png Graphic file (type png)
- <use Planta.png>
-Package pdftex.def Info: Planta.png used on input line 17.
-(pdftex.def)             Requested size: 403.99242pt x 155.74304pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4
+) [2
 
 
 
 ]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
- [5 <./Planta.png>]
-
-LaTeX Warning: Reference `fig:Planta' on page 6 undefined on input line 51.
-
-[6]
-
-LaTeX Warning: Citation 'daneels1999scada' on page 7 undefined on input line 61
-.
-
-[7] <Ambiente.jpg, id=62, 2601.72pt x 1461.46pt>
-File: Ambiente.jpg Graphic file (type jpg)
- <use Ambiente.jpg>
-Package pdftex.def Info: Ambiente.jpg used on input line 83.
-(pdftex.def)             Requested size: 390.24117pt x 219.20953pt.
-
-<Pt100.png, id=63, 401.0985pt x 226.446pt>
-File: Pt100.png Graphic file (type png)
- <use Pt100.png>
-Package pdftex.def Info: Pt100.png used on input line 100.
-(pdftex.def)             Requested size: 320.87923pt x 181.15703pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Citation 'salcas2015site' on page 8 undefined on input line 104.
-
-
-[8 <./Ambiente.jpg>]
-
-LaTeX Warning: Citation 'weg2010manualinstalacao' on page 9 undefined on input 
-line 112.
-
-[9 <./Pt100.png>] [10]
-
-LaTeX Warning: Citation 'novus2014folheto' on page 11 undefined on input line 1
-45.
-
-[11]
-
-LaTeX Warning: Citation 'elipse2015manual' on page 12 undefined on input line 1
-82.
-
-
-LaTeX Warning: Citation 'modbus1996manual' on page 12 undefined on input line 1
-86.
-
-
-LaTeX Warning: Citation 'modbus1996manual' on page 12 undefined on input line 1
-88.
-
-[12] <QueryResponse.png, id=81, 285.4665pt x 172.2435pt>
-File: QueryResponse.png Graphic file (type png)
-
-<use QueryResponse.png>
-Package pdftex.def Info: QueryResponse.png used on input line 198.
-(pdftex.def)             Requested size: 285.46579pt x 172.24307pt.
-
-
-LaTeX Warning: Citation 'modbus1996manual' on page 13 undefined on input line 2
-00.
-
-
-LaTeX Warning: Reference `tab:ASCII' on page 13 undefined on input line 204.
-
-[13 <./QueryResponse.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 206.
-
-
-LaTeX Warning: Reference `tab:RTU' on page 14 undefined on input line 223.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 225.
-
-
-LaTeX Warning: Citation 'peng2008modbus' on page 14 undefined on input line 240
-.
-
-[14]) [15]
 \openout2 = `capitulo3/implementacoes.aux'.
 
  (./capitulo3/implementacoes.tex
 Cap\'{\i }tulo 3.
-
-LaTeX Warning: Reference `fig:ArquiteturaComunicacao' on page 16 undefined on i
-nput line 11.
-
-<ArquiteturaComunicacao.jpg, id=91, 449.2785pt x 170.43675pt>
-File: ArquiteturaComunicacao.jpg Graphic file (type jpg)
-
-<use ArquiteturaComunicacao.jpg>
-Package pdftex.def Info: ArquiteturaComunicacao.jpg used on input line 15.
-(pdftex.def)             Requested size: 404.3469pt x 153.39163pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Citation 'weg2010manualinstalacao' on page 16 undefined on input
- line 21.
-
-[16
+) [3
 
 
 
-] <Ligacao.jpg, id=96, 399.894pt x 280.04625pt>
-File: Ligacao.jpg Graphic file (type jpg)
- <use Ligacao.jpg>
-Package pdftex.def Info: Ligacao.jpg used on input line 27.
-(pdftex.def)             Requested size: 359.90126pt x 252.03928pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:LigacaoNovus' on page 17 undefined on input line 
-33.
-
-<LigacaoNovus.jpg, id=97, 224.63925pt x 127.07475pt>
-File: LigacaoNovus.jpg Graphic file (type jpg)
- <use LigacaoNovus.jpg>
-Package pdftex.def Info: LigacaoNovus.jpg used on input line 37.
-(pdftex.def)             Requested size: 224.63869pt x 127.07443pt.
-
-
-LaTeX Warning: Citation 'novus2014folheto' on page 17 undefined on input line 3
-8.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17 <./ArquiteturaComunicacao.jpg>]
-
-LaTeX Warning: Citation 'iokit2009manual' on page 18 undefined on input line 48
-.
-
-[18 <./Ligacao.jpg> <./LigacaoNovus.jpg>]
-
-LaTeX Warning: Reference `fig:link' on page 19 undefined on input line 54.
-
-<link.png, id=104, 217.41225pt x 331.83975pt>
-File: link.png Graphic file (type png)
- <use link.png>
-Package pdftex.def Info: link.png used on input line 58.
-(pdftex.def)             Requested size: 152.18752pt x 232.28624pt.
-
-
-LaTeX Warning: Citation 'weg2010manualinstalacao' on page 19 undefined on input
- line 63.
-
-
-LaTeX Warning: Reference `fig:portaPC' on page 19 undefined on input line 65.
-
-[19 <./link.png>] <portaPC.png, id=108, 593.21625pt x 141.52875pt>
-File: portaPC.png Graphic file (type png)
-
-<use portaPC.png>
-Package pdftex.def Info: portaPC.png used on input line 69.
-(pdftex.def)             Requested size: 415.24854pt x 99.06944pt.
-
-
-LaTeX Warning: Citation 'weg2010manualinstalacao' on page 20 undefined on input
- line 70.
-
-
-LaTeX Warning: Reference `fig:LadderComunicacao' on page 20 undefined on input 
-line 74.
-
-<ladderComunicacao.png, id=109, 622.7265pt x 130.086pt>
-File: ladderComunicacao.png Graphic file (type png)
-
-<use ladderComunicacao.png>
-Package pdftex.def Info: ladderComunicacao.png used on input line 78.
-(pdftex.def)             Requested size: 404.76744pt x 84.55489pt.
-
-
-LaTeX Warning: Reference `fig:rs485' on page 20 undefined on input line 83.
-
-<rs485.png, id=110, 591.4095pt x 260.172pt>
-File: rs485.png Graphic file (type png)
- <use rs485.png>
-Package pdftex.def Info: rs485.png used on input line 87.
-(pdftex.def)             Requested size: 413.98383pt x 182.11914pt.
-
-
-LaTeX Warning: Citation 'weg2010manualinstalacao' on page 20 undefined on input
- line 88.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:link' on page 20 undefined on input line 92.
-
-
-LaTeX Warning: Reference `fig:memoria8AD' on page 20 undefined on input line 96
-.
-
-<memoria8AD.png, id=111, 487.22025pt x 367.97475pt>
-File: memoria8AD.png Graphic file (type png)
- <use memoria8AD.png>
-Package pdftex.def Info: memoria8AD.png used on input line 100.
-(pdftex.def)             Requested size: 341.05185pt x 257.58057pt.
-
-
-LaTeX Warning: Citation 'weg2010manualinstalacao' on page 20 undefined on input
- line 101.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20 <./portaPC.png> <./ladderComunicacao.png>] [21 <./rs485.png> <./memoria8AD.
-png>]
-
-LaTeX Warning: Reference `fig:Config8AD' on page 22 undefined on input line 107
-.
-
-<Config8AD.png, id=119, 622.12425pt x 131.89275pt>
-File: Config8AD.png Graphic file (type png)
- <use Config8AD.png>
-Package pdftex.def Info: Config8AD.png used on input line 111.
-(pdftex.def)             Requested size: 423.0389pt x 89.68587pt.
-
-
-LaTeX Warning: Citation 'novus2014modbus' on page 22 undefined on input line 12
-3.
-
-[22 <./Config8AD.png>]) [23]
+]
 \openout2 = `capitulo4/aplicacaoTestes.aux'.
 
  (./capitulo4/aplicacaoTestes.tex
 Cap\'{\i }tulo 4.
-
-LaTeX Warning: Reference `fig:Interface' on page 24 undefined on input line 8.
-
-<Interface.png, id=127, 1428.08531pt x 749.80125pt>
-File: Interface.png Graphic file (type png)
- <use Interface.png>
-Package pdftex.def Info: Interface.png used on input line 12.
-(pdftex.def)             Requested size: 414.13414pt x 217.4368pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:Organizer' on page 24 undefined on input line 22.
-
-
-[24
+) [4
 
 
 
 ]
-
-LaTeX Warning: Reference `fig:Organizer' on page 25 undefined on input line 31.
-
-
-
-LaTeX Warning: Citation 'weg2010manualinstalacao' on page 25 undefined on input
- line 31.
-
-
-LaTeX Warning: Citation 'novus2014modbus' on page 25 undefined on input line 33
-.
-
-<Organizer.png, id=132, 438.438pt x 373.99725pt>
-File: Organizer.png Graphic file (type png)
- <use Organizer.png>
-Package pdftex.def Info: Organizer.png used on input line 37.
-(pdftex.def)             Requested size: 306.9045pt x 261.79628pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Citation 'weg2010manualinstalacao' on page 25 undefined on input
- line 42.
-
-[25 <./Interface.png>]
-
-LaTeX Warning: Reference `fig:InterfaceRun' on page 26 undefined on input line 
-49.
-
-<InterfaceRun.png, id=137, 1026.08344pt x 486.31688pt>
-File: InterfaceRun.png Graphic file (type png)
- <use InterfaceRun.png>
-Package pdftex.def Info: InterfaceRun.png used on input line 53.
-(pdftex.def)             Requested size: 410.4261pt x 194.5233pt.
-
-[26 <./Organizer.png>]) [27 <./InterfaceRun.png>]
 \openout2 = `conclusao/conclusao.aux'.
 
  (./conclusao/conclusao.tex
 Cap\'{\i }tulo 5.
-[28
+) [5
 
 
 
 ]
-
-LaTeX Warning: Citation 'elipse2016modbus' on page 29 undefined on input line 2
-8.
-
-[29]) [30]
 No file main.bbl.
 (./main.aux (./rosto.aux) (./preambulo.aux) (./resumos.aux)
 (./capitulo1/introducao.aux) (./capitulo2/estruturaSistema.aux)
 (./capitulo3/implementacoes.aux) (./capitulo4/aplicacaoTestes.aux)
-(./conclusao/conclusao.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6183 strings out of 493014
- 82200 string characters out of 6133351
- 154802 words of memory out of 5000000
- 9483 multiletter control sequences out of 15000+600000
- 78021 words of font info for 92 fonts, out of 8000000 for 9000
+ 6073 strings out of 493014
+ 80402 string characters out of 6133351
+ 153754 words of memory out of 5000000
+ 9378 multiletter control sequences out of 15000+600000
+ 64759 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 41i,17n,35p,1122b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on main.pdf (39 pages, 2407777 bytes).
+ 41i,13n,35p,492b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
+ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhv
+r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (14 pages, 80451 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 68 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
