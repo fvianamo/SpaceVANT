@@ -1,0 +1,11 @@
+%% Resumo %%
+
+\mychapterast{Resumo}
+Este trabalho apresenta o desenvolvimento de uma aplica\c{c}\~{a}o \emph{Web} utilizada no controle de um sistema de tanques acoplados da Quanser, que permite acesso remoto controlado e o armazenamento de informa\c{c}\~{o}es relativas \`{a} execu\c{c}\~{a}o de experimentos de controle na planta, tais como sintonia do controlador, resposta da planta e demais vari\'{a}veis medidas e calculadas. \'{E} poss\'{\i}vel controlar a planta manualmente ou de forma autom\'{a}tica atrav\'{e}s de controladores do tipo PID, portanto uma fundamenta\c{c}\~{a}o te\'{o}rica sobre esses controladores tamb\'{e}m \'{e} apresentada. A comunica\c{c}\~{a}o entre a aplica\c{c}\~{a}o desenvolvida e a planta faz uso de um \emph{gateway} dispon\'{\i}vel no laborat\'{o}rio e a implementa\c{c}\~{a}o foi realizada na linguagem Java e foram utilizados os \emph{frameworks} Java Server Faces, Spring e Hibernate.
+
+\textbf{Palavras-chave}: Laborat\'{o}rio Remoto; Controlador PID; Java Web; Spring.
+
+\mychapterast{Abstract}
+This work presents the development of a Web application applied on the control a Quanser coupled tank system, which allows remote access and the storage of information, related to the execution of levei control experiments, such as the controller's tunning, plant response and other measured and calculated signals. It is possible to control the plant manually or automatically using PID controllers, so the basic theory of these controllers is also presented on this work. The communication between the application and the plant is made through a gateway available in the laboratory and the implementation was done in the Java language, making use of Java Server Faces, Spring and Hibernate frameworks.
+
+\textbf{Keywords}: Remote Laboratory; PID Controller; Java Web; Spring. 

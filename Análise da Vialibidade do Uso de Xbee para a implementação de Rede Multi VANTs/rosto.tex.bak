@@ -1,0 +1,75 @@
+%
+% ********** Pagina de Rosto
+%
+
+% titlepage gera paginas sem numera\c{c}ao
+\begin{titlepage}
+
+\begin{center}
+
+\small
+
+% O comando @{} no ambiente tabular x  para criar um novo delimitador
+% entre colunas que no a barra vertical | que  normalmente utilizada.
+% O delimitador desejado vai entre as chaves. No exemplo, no h nada,
+% de modo que o delimitador  vazio. Este recurso est sendo usado para
+% eliminar o espao que geralmente existe entre as colunas
+\begin{tabularx}{\linewidth}{@{}l@{}C@{}r@{}}
+% A figura foi colocada dentro de um parbox para que fique verticalmente
+% centralizada em relao ao resto da linha
+\parbox[c]{3cm}{\includegraphics[width=\linewidth]{LogoUFRN}} &
+\begin{center}
+\textsf{\textsc{Universidade Federal do Rio Grande do Norte\\
+Centro de Tecnologia\\
+Departamento de Engenharia de Computa\c{c}\~{a}o e Automa\c{c}\~{a}o\\
+Curso de Engenharia de Computa\c{c}\~{a}o}}
+\end{center}
+\end{tabularx}
+
+
+% O vfill  um espao vertical que assume a mxima dimenso possvel
+% Os vfill's desta pgina foram utilizados para que o texto ocupe
+% toda a folha
+\vfill
+
+\LARGE
+
+\textbf{PLATAFORMA WEB PARA ACESSO REMOTO A PLANTAS DID\'{A}TICAS DE AUTOMA\c{C}\~{A}O E CONTROLE}
+
+\vfill
+
+\Large
+
+\textbf{Victor Carvalho Galv\~{a}o de Freitas}
+
+%\vfill
+%
+%\normalsize
+
+%Orientador: Prof. Prof. F\'{a}bio Meneghetti Ugulino de Ara\'{u}jo
+% Se no houver co-orientador, comente a pr\'{o}xima linha
+%\\[2ex] Co-orientador: Prof. Dr. Beltrano Catandura do Amaral
+
+\vfill
+
+
+
+%\textbf{Disserta\c{c}\~{a}o de Mestrado}
+%\textbf{Tese de Doutorado}
+%apresentada ao Programa de P\'{o}s-Gradu\c{c}\~{a}o em Engenharia El\'{e}trica da UFRN
+%(\'{a}rea de concentra\c{c}\~{a}o: Automa\c{c}\~{a}o e Sistemas)
+%(\'{a}rea de concentra\c{c}\~{a}o: Telecomunica\c{c}\~{o}es)
+%como parte dos requisitos para obten\c{c}\~{a}o do t\'{\i}tulo de
+%Mestre em Ci\^{e}ncias.}
+%Doutor em Ci\^{e}ncias.}
+
+\vfill
+
+\large
+
+Natal, RN, junho de 2013
+
+\end{center}
+
+\end{titlepage}
+

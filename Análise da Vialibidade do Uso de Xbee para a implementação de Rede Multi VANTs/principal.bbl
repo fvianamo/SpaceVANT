@@ -1,0 +1,47 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Agrawal \harvardand\ Srivastava}{2007}{WebLab}
+Agrawal, Awkash \harvardand\ Sanjay Srivastava  \harvardyearleft
+  2007\harvardyearright , `Weblab: A generic architecture for remote
+  laboratories', {\em 15th International Conference on Advanced Computing and
+  Communications} .
+
+\harvarditem{\'{A}lvares \harvardand\ Ferreira}{2003}{COBEF2003}
+\'{A}lvares, Alberto~Jos\'{e} \harvardand\ Joao Carlos~Esp\'{i}ndola Ferreira
+  \harvardyearleft 2003\harvardyearright , `Metodologia para implantação de
+  laboratórios remotos via internet na área de automação da manufatura', {\em
+  2º Congresso Brasileiro de Engenharia de Fabricação} .
+
+\harvarditem{Aström \harvardand\ Murray}{2012}{Astrom}
+Aström, Karl~Johan \harvardand\ Richard~M. Murray  \harvardyearleft
+  2012\harvardyearright , {\em Feedback Systems}, Princeton University Press.
+
+\harvarditem{Burns \harvardand\ Schalk}{2010}{JSF}
+Burns, Ed \harvardand\ Chris Schalk  \harvardyearleft 2010\harvardyearright ,
+  {\em JavaServer Faces 2.0: The Complete Reference}, McGraw-Hill.
+
+\harvarditem[Buschmann et~al.]{Buschmann, Meunier, Rohnert, Sornmerlad
+  \harvardand\ Stal}{1996}{ArquiteturaCamadas}
+Buschmann, Frank, Regine Meunier, Hans Rohnert, Peter Sornmerlad \harvardand\
+  Michael Stal  \harvardyearleft 1996\harvardyearright , {\em Pattern-Oriented
+  Software Architecture}, John Wiley \& Sons.
+
+\harvarditem{Dorf \harvardand\ Bishop}{2011}{Dorf}
+Dorf, Richard~C. \harvardand\ Robert~H. Bishop  \harvardyearleft
+  2011\harvardyearright , {\em Modern Control Systems}, Pearson Education.
+
+\harvarditem{Gomes \harvardand\ Garc\'{i}a-Zub\'{i}a}{2007}{Deusto}
+Gomes, Lu\'{i}s \harvardand\ Javier Garc\'{i}a-Zub\'{i}a, eds.
+  \harvardyearleft 2007\harvardyearright , {\em Advances on remote laboratories
+  and e-learning experiences}, Deusto Publicaciones.
+
+\harvarditem{Oliveira}{2008}{Leonardo}
+Oliveira, Leonardo~Dantas  \harvardyearleft 2008\harvardyearright ,
+  `Desenvolvimento de um gateway de comunicação para interação com plataformas
+  de aquisição e escrita de dados'.
+
+\harvarditem{Walls}{2011}{SpringInAction}
+Walls, Craig  \harvardyearleft 2011\harvardyearright , {\em Spring in Action},
+  Manning Publications.
+
+\end{thebibliography}

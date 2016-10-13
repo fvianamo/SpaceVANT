@@ -1,0 +1,111 @@
+% ********** P\'{a}gina de assinaturas
+%
+
+\begin{titlepage}
+%
+\begin{center}
+%
+
+%
+\Large \textbf{PLATAFORMA WEB PARA ACESSO REMOTO A PLANTAS DID\'{A}TICAS DE AUTOMA\c{C}\~{A}O E CONTROLE}
+
+
+\vfill
+
+\Large \textbf{Victor Carvalho Galv\~{a}o de Freitas}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\normalsize
+
+Orientador: Prof. Dr. F\'{a}bio Meneghetti Ugulino de Ara\'{u}jo
+
+\vfill
+
+\hfill
+\parbox{0.5\linewidth}{
+% Descomente as opes que se aplicam ao seu caso
+\textbf{Monografia}
+apresentada \`{a} Banca Examinadora do Trabalho de Conclus\~{a}o do Curso de
+Engenharia de Computa\c{c}\~{a}o, em cumprimento \`{a}s exig\^{e}ncias
+legais como requisito parcial \`{a} obten\c{c}\~{a}o do t\'{\i}tulo de Engenheiro de
+Computa\c{c}\~{a}o.}
+
+\vfill
+
+\large
+
+Natal/RN
+
+Junho de 2013
+
+\end{center}
+\end{titlepage}
+
+%
+% ********** Dedicat\'{o}ria
+%
+
+% A dedicat\'{o}ria n\~{a}o \'{e} obrigat\'{o}ria. Se voc\^{e} tem algu\'{e}m ou algo que teve
+% uma import\^{a}ncia fundamental ao longo do seu curso, pode dedicar a ele(a)
+% este trabalho. Geralmente n\~{a}o se faz dedicat\'{o}ria a v\'{a}rias pessoas: para
+% isso existe a se\c{c}\~{a}o de agradecimentos.
+% Se n\~{a}o quiser dedicat\'{o}ria, basta excluir o texto entre
+% \begin{titlepage} e \end{titlepage}
+
+\begin{titlepage}
+
+\vspace*{\fill}
+
+\hfill
+\begin{minipage}{0.5\linewidth}
+\begin{flushright}
+\large\it
+Aos meus pais, Jos\'{e} Galv\~{a}o de Freitas e Alzira Carvalho Galv\~{a}o de Freitas, que jamais mediram esfor\c{c}os para me proporcionar a melhor educa\c{c}\~{a}o poss\'{\i}vel.
+
+\end{flushright}
+\end{minipage}
+
+\vspace*{\fill}
+
+\end{titlepage}
+
+%
+% ********** Agradecimentos
+%
+
+% Os agradecimentos n\~{a}o s\~{a}o obrigat\'{o}rios. Se existem pessoas que lhe
+% ajudaram ao longo do seu curso, pode incluir um agradecimento.
+% Se n\~{a}o quiser agradecimentos, basta excluir o texto ap\'{o}s \chapter*{...}
+
+%\chapter*{Agradecimentos}
+%\thispagestyle{empty}
+
+%\begin{trivlist}  \itemsep 2ex
+
+%\item A Deus...
+
+%\end{trivlist}
+
+%\newpage
+
+\vspace*{\fill}
+\setlength{\epigraphrule}{1pt}
+\onehalfspacing
+\setlength{\epigraphwidth}{.95\textwidth}
+
+\begin{epigraphs}
+\qitem{
+    \textit{[...]
+        \linebreak "The brick walls are there for a reason. The brick walls are not there to keep us out. The brick walls are there to give us a chance to show how badly we want something. Because the brick walls are there to stop the people who don't want it badly enough. They're there to stop the other people."
+        }
+    }
+{\textsc{The Last Lecture - Randy Pausch}}
+\end{epigraphs}
+
+
+
+\vspace*{\fill}

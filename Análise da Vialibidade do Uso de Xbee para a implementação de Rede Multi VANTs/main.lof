@@ -1,0 +1,23 @@
+\select@language {brazil}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Hierarquia funcional de acordo com a IEC 62264-3}}{1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o simplificada das Instala\IeC {\c c}\IeC {\~o}es do Laborat\IeC {\'o}rio de Monitoramento de Inje\IeC {\c c}\IeC {\~a}o.}}{5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ambiente de Trabalho.}}{8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Sensores de temperatura PT100.}}{9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Requisi\IeC {\c c}\IeC {\~a}o-resposta entre mestre e escravo.}}{13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Arquitetura da Aplica\IeC {\c c}\IeC {\~a}o.}}{17}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Especifica\IeC {\c c}\IeC {\~a}o de liga\IeC {\c c}\IeC {\~a}o de dispositivos externos ao m\IeC {\'o}dulo de expans\IeC {\~a}o TPW-03 8AD.}}{18}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Especifica\IeC {\c c}\IeC {\~a}o de liga\IeC {\c c}\IeC {\~a}o de dispositivos externos ao N2000 do tipo 4 - 20mA.}}{18}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Link do CLP com o PC via TPW03-PCLINK}}{19}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Programa\IeC {\c c}\IeC {\~a}o de comunica\IeC {\c c}\IeC {\~a}o para a porta do PC ($D8321$)}}{20}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Programa\IeC {\c c}\IeC {\~a}o em LADDER para configura\IeC {\c c}\IeC {\~a}o de comunica\IeC {\c c}\IeC {\~a}o.}}{20}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Programa\IeC {\c c}\IeC {\~a}o do formato de comunica\IeC {\c c}\IeC {\~a}o para RS485 (D8120)}}{21}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o do Modo de opera\IeC {\c c}\IeC {\~a}o do m\IeC {\'o}dulo 8AD.}}{21}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Programa\IeC {\c c}\IeC {\~a}o em LADDER para configura\IeC {\c c}\IeC {\~a}o do m\IeC {\'o}dulo 8AD.}}{22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Interface da Aplica\IeC {\c c}\IeC {\~a}o}}{25}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Organizer} da aplica\IeC {\c c}\IeC {\~a}o}}{26}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o em Execu\IeC {\c c}\IeC {\~a}o}}{27}
+\addvspace {10\p@ }

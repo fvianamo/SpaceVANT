@@ -1,0 +1,310 @@
+%%
+%% Arquivo principal para:
+%% - teses de doutorado
+%% - dissertaes de mestrado
+%% - exames de qualificao de mestrado e doutorado
+%%
+%% NOTA: A PUBLICAO DESTE MODELO VISA APENAS ORIENTAR OS PS-GRADUANDOS
+%% NA PREPARAO DE SEUS TEXTOS. O PPgEE DA UFRN NO PROV ASSISTNCIA NO
+%% USO DAS FERRAMENTAS NECESSRIAS AO USO DESTE MODELO (LATEX, XFIG, ETC.)
+%% 1
+%% Adelardo Medeiros, dezembro de 2005.
+
+% DEFINIES GLOBAIS
+
+% Esta primeira linha d informaes gerais sobre o documento.
+% PARA A VERSO FINAL:
+% papel A4, letra grande (12pt), openr	sight (captulos s iniciam em
+% pgina direita, se necessrio incluindo uma pgina em branco),
+% twoside (o documento vai ser impresso em frente e costa)
+%\documentclass[a4paper,12pt,openright,twoside]{book}
+% PARA A QUALIFICAO E PARA A VERSO INICIAL:
+% papel A4, letra grande (12pt), openany (captulos iniciam em
+% qualquer pgina), oneside (o documento vai ser impresso s na frente)
+\documentclass[a4paper,12pt,openany,oneside]{book}
+
+% PACOTES OBRIGATRIOS
+\usepackage{epigraph}
+\usepackage{setspace}
+
+\usepackage[utf8]{inputenc}
+%\usepackage{lipsum}
+% Use estes pacotes para poder digitar diretamente as letras com acento
+% e para que a hifenizao funcione corretamente
+%\usepackage[latin1]{inputenc}
+\usepackage{ae}
+% Para usar fontes standard ao invs das do LaTeX (gera melhores PDFs)
+\usepackage{pslatex}
+% Para a hifenizao em portugus
+\usepackage[portuguese, brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Para que os primeiros pargrafos das sees tambm sejam indentados
+\usepackage{indentfirst}
+% Para poder incluir grficos (figuras)
+\usepackage{graphicx}
+% Para poder fazer glossrio ou lista de smbolos
+% Use a segunda opo se quiser incluir na definio do smbolo a
+% pgina e/ou a equao onde ela foi definida
+\usepackage[portuguese,noprefix]{nomencl}
+%\usepackage[portuguese,noprefix,refeq,refpage]{nomencl}
+% Para permitir espaamento simples, 1 1/2 e duplo
+\usepackage{setspace}
+% Para usar alguns comandos matemticos avanados muito teis
+\usepackage{amsmath}
+% Para poder usar o ambiente "comment"
+\usepackage{verbatim}
+% Para poder ter tabelas com colunas de largura auto-ajustvel
+\usepackage{tabularx}
+% Para executar um comando depois do fim da pgina corrente
+\usepackage{afterpage}
+% Para formatar URLs (endereos da Web)
+\usepackage{url}
+% Para reduzir os espaos entre os tens (itemize, enumerate, etc.)
+% Este pacote no faz parte da distribuio padro do LaTeX.
+\usepackage{noitemsep}
+% Para as citaes bibliogrficas
+\usepackage[abbr]{harvard}	% As chamadas so sempre abreviadas
+\harvardparenthesis{square}	% Colchetes nas chamadas
+%\harvardyearparenthesis{round}	% Parntesis nos anos das referncias
+\renewcommand{\harvardand}{e}	% Substituir "&" por "e" nas referncias
+
+% PACOTES OPCIONAIS
+
+% Para poder incluir arquivos Postscript com cores (do Xfig, por exemplo)
+\usepackage{color}
+% Para ter clulas em tabelas que ocupam mais de uma linha
+\usepackage{multirow}
+% Para poder ter tabelas longas em mais de uma pgina
+%\usepackage{longtable}
+% Para poder escrever partes do texto em "n" colunas
+%\usepackage{multicol}
+% Se voc quiser personalizar os cabealhos das pginas
+%\usepackage{fancyheadings}
+% Para incluir algoritmos e listagens de cdigos
+\usepackage{listings}
+% Captulos com ttulos em um formato "decorado"
+\usepackage{capitulos}
+
+\hyphenation{skinRGBDetect}
+
+%FIGURAS LADO A LADO
+\usepackage{subfigure}
+
+% NOVOS COMANDOS
+
+% As definies dos novos comandos esto agrupadas no arquivo "comandos.tex"
+% Esta separao  opcional: se voc preferir, pode por as definies
+% diretamente neste arquivo
+\input{comandos.tex}
+
+%
+% As margens
+%
+
+% Dire\c{c}\~{a}o horizontal
+
+% Margem interna
+% Nas pginas mpares
+\setlength{\oddsidemargin}{3.5cm}         % Margem real desejada
+% Nas pginas pares
+\setlength{\evensidemargin}{2.5cm}        % Margem real desejada
+% Largura do texto
+\setlength{\textwidth}{15cm}
+% As margens laterais no LaTeX so sempre 1 polegada maiores do que as
+% fixadas. Se foi fixada \setlength{\oddsidemargin}{3.5cm}, a margem
+% real seria de 3.5+2.54=6.04cm. Para permitir que voc no tenha que
+% fazer esta conta, pode usar o nmero desejado nas linhas anteriores
+% e a gente subtrai 1in nas prximas linhas
+\addtolength{\oddsidemargin}{-1in}
+\addtolength{\evensidemargin}{-1in}
+% Note que a margem direita no  fixada diretamente:
+% ela  obtida subtraindo-se os outros valores da largura da pgina.
+% 3.5+15+x=21cm (largura A4) -> x = margem externa = 2.5cm
+
+% Dire\c{c}\~{a}o vertical
+
+% Margem superior (entre o topo da folha e o cabealho), altura do
+% cabealho e distncia entre o fim do cabealho e o incio do texto
+\setlength{\topmargin}{2.0cm}             % Margem real desejada
+\setlength{\headheight}{1.0cm}
+\setlength{\headsep}{1.0cm}
+% Altura do texto (sem cabealho e rodap)
+\setlength{\textheight}{22.7cm}
+% Distncia do fim do texto ao rodap
+\setlength{\footskip}{1.0cm}
+% A margem superior no LaTeX  sempre 1 polegada maior do que a
+% fixada. Se foi fixada \setlength{\topmargin}{2.0cm}, a margem
+%real seria de 2.0+2.54=4.54cm. Para permitir que voc no tenha que
+% fazer esta conta, pode usar o nmero desejado na linha anterior
+% e a gente subtrai 1in na prxima linha
+\addtolength{\topmargin}{-1in}
+% Note que a margem inferior no  fixada diretamente:
+% ela  obtida subtraindo-se os outros valores, sem incluir o
+% "footskip", da altura da pgina.
+% 2.0+1.0+1.0+22.7+x=29.7cm (altura A4) -> x = margem inferior = 3cm
+
+%
+% O estilo das referncias bibliogrficas
+%
+
+\bibliographystyle{ppgee}
+
+%
+% O espaamento entre linhas
+%
+
+% As pginas iniciais so sempre em espasamento simples
+\singlespacing
+
+% Para a criao do glossrio (ou lista de smbolos)
+\makeglossary
+
+% Lista de arquivos a serem processados. Estes comandos "includeonly" so
+% dispensveis e devem obrigatoriamente ser comentados na hora de gerar o
+% documento definitivo. Eles servem para compilar apenas parte do documento.
+%  til, durante a redao, para que no se tenha de compilar todo o
+% documento a cada vez que se faz uma alterao. Por exemplo, se eu estou
+% fazendo alteraes na dedicatria e as outras partes no tm interesse no
+% momento, posso incluir (descomentar) a linha "\includeonly{preambulo}"
+%\includeonly{rosto}
+%\includeonly{catalograficos}
+%\includeonly{preambulo}
+%\includeonly{resumos}
+%\includeonly{capitulo1/introducao}
+%\includeonly{capitulo2/metodologia}
+%\includeonly{capitulo3/software}
+%\includeonly{capitulo4/estudo}
+%\includeonly{capitulo5/conclusao}
+%\includeonly{apendice/apendice}
+
+% ? inicio codigo fonte
+\usepackage{listings}
+\lstset
+{
+numbers=left,
+stepnumber=5,
+firstnumber=1,
+numberstyle=\tiny,
+extendedchars=true,
+breaklines=true,
+frame=tb,
+basicstyle=\footnotesize,
+stringstyle=\ttfamily,
+showstringspaces=false
+}
+\renewcommand{\lstlistingname}{Listagem}
+\renewcommand{\lstlistlistingname}{Lista de C\'{o}digos}
+%=========================
+% ? fim codigo fonte
+
+% Inicia o texto
+\begin{document}
+
+% Paginas iniciais (sem numerao)
+\pagestyle{empty}
+
+% P\'{a}gina de rosto (capa interna)
+\include{rosto}
+
+% Ficha catalografica: os dados catalogrficos devem ser fornecidos
+% pela BCZM.
+% S\'{o} s\~{a}o inclu\'{\i}dos na vers\~{a}o final da tese ou disserta\c{c}\~{a}o. N\~{a}o s\~{a}o
+% inclu\'{\i}dos nem na proposta de tema de qualificao nem na vers\~{a}o
+% preliminar da tese ou disserta\c{c}\~{a}o: nestes casos, comente a pr\'{o}xima linha.
+
+%\include{catalograficos}
+
+% Assinaturas da banca, dedicatria e agradecimentos
+% S\'{o} s\~{a}o inclu\'{\i}dos na verso final da tese ou dissertao. N\~{a}o s\~{a}o
+% inclu\'{\i}dos nem na proposta de tema de qualifica\c{c}\~{a}o nem na vers\~{a}o
+% preliminar da tese ou dissertao: nestes casos, comente a pr\'{o}xima linha.
+\include{preambulo}
+
+%
+% O espa\c{c}amento entre linhas
+%
+
+% PARA A VERS\~{A}O FINAL:
+% Deve ser usado espa\c{c}amento simples nas p\'{a}ginas de texto
+%\singlespacing
+% PARA A QUALIFICA\c{C}\~{A}O E PARA A VERS\~{A}O INICIAL:
+% Deve ser usado espa\c{c}amento 1 1/2 nas pginas de texto
+\onehalfspacing
+
+% Resumo/Abstract
+\include{resumos}
+
+% P\'{a}ginas introdut\'{o}rias (com numera\c{c}\~{a}o romana)
+\frontmatter
+
+% Lista de conte\'{u}do (gerado automaticamente)
+\addcontentsline{toc}{chapter}{Sum\'{a}rio}
+\tableofcontents
+
+%%% Lista de figuras (gerada automaticamente)
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de Figuras}
+\listoffigures
+
+% Lista de tabelas (gerada automaticamente)
+%\cleardoublepage
+%\addcontentsline{toc}{chapter}{Lista de Tabelas}
+%\listoftables
+
+% Gloss\'{a}rio (gerado automaticamente - veja entradas em
+% introducao/introducao.tex e em estilo/estilo.tex)
+
+%\cleardoublepage
+%\renewcommand{\nomname}{Lista de S\'{\i}mbolos e Abreviaturas}
+%\markboth{\MakeUppercase{\nomname}}{\MakeUppercase{\nomname}}
+%\addcontentsline{toc}{chapter}{\nomname}
+
+% O argumento opcional do comando \printglossary  a largura deixada
+% para os s\'{\i}mbolos no gloss\'{a}rio. Se seus s\'{\i}mbolos s\~{a}o "largos", como
+% neste exemplo, \'{e} melhor por mais espa\c{c}o do que o 1cm que  reservado
+% por default
+%printglossary{1.5cm}% P\'{a}ginas do texto principal (com cabealho)
+\mainmatter
+\pagestyle{headings}
+
+% Para facilitar a organiza\c{c}\~{a}o, foi criado um diretorio para cada
+% captulo do documento, pois assim os arquivos das figuras ficam
+% classificados por captulos
+
+% Gerar Refer\^{e}ncias - bibtex principal
+% Gerar Gloss\'{a}rio - makeindex -s nomencl.ist -o principal.gls principal.glo
+
+% Comente Introduo abaixo e descomente seu capitulo
+
+\include{capitulo1/introducao}
+
+\include{capitulo2/estruturaSistema}
+
+\include{capitulo3/implementacoes}
+
+\include{capitulo4/aplicacaoTestes}
+
+\include{conclusao/conclusao}
+
+
+% Refer\^{e}ncias bibliogr\'{a}ficas (geradas automaticamente)
+
+\addcontentsline{toc}{chapter}{Refer\^{e}ncias bibliogr\'{a}ficas}
+\nocite{*}
+\bibliography{bibliografia}
+
+
+\appendix
+
+% Ap\^{e}ndice A
+\include{apendice/apendice}
+
+% Ap\^{e}ndice B
+%\include{apendice/apendiceB}
+
+% Ap\^{e}ndice C
+%\include{apendice/apendiceC}
+
+\end{document} 

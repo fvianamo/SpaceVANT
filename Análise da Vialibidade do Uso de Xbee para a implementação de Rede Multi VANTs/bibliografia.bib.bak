@@ -1,0 +1,87 @@
+@Book{Dorf,
+author = {Richard C. Dorf and Robert H. Bishop},
+title = {Modern Control Systems},
+publisher = {Pearson Education},
+year = {2011},
+}
+
+@Book{Astrom,
+author = {Karl Johan Aström and Richard M. Murray},
+title = {Feedback Systems},
+publisher = {Princeton University Press},
+year = {2012},
+}
+
+@Book{Deusto,
+  editor = {Lu\'{i}s Gomes and Javier Garc\'{i}a-Zub\'{i}a},
+  title = {Advances on remote laboratories and e-learning experiences},
+  publisher = {Deusto Publicaciones},
+  year = {2007},
+}
+
+@Book{SpringInAction,
+  author = {Craig Walls},
+  title = {Spring in Action},
+  publisher = {Manning Publications},
+  year = {2011},
+}
+
+@Book{JSF,
+  author = {Ed Burns and Chris Schalk},
+  title = {JavaServer Faces 2.0: The Complete Reference},
+  publisher = {McGraw-Hill},
+  year = {2010},
+}
+
+@Book{ArquiteturaCamadas,
+  author = {Frank Buschmann and Regine Meunier and Hans Rohnert and Peter Sornmerlad and Michael Stal},
+  title = {Pattern-Oriented Software Architecture},
+  publisher = {John Wiley \& Sons},
+  year = {1996},
+}
+
+@TechReport{NUI,
+  author = 	 {Group NUI},
+  title = 	 {Advances on remote laboratories and e-learning experiences},
+  institution =  {http://nuigroup.com/go/lite/about/},
+  year = 	 2012,
+  type =	 {Página na Internet, acessado em 05 de Dezembro de 2012},
+  key = 	 {serial},
+  month =	 "dez"
+}
+
+@TechReport{JavaEE,
+  author = 	 {Eric Jendrock and Ricardo Cervera-Navarro and Ian Evans and Kim Haase and William Markito
+and Chinmayee Srivathsa},
+  title = 	 {The Java EE 7 Tutorial},
+  institution =  {http://docs.oracle.com/javaee/7/tutorial/doc/home.htm},
+  year = 	 2013,
+  type =	 {Página na Internet, acessado em 14 de junho de 2013},
+  key = 	 {serial},
+  month =	 "jun"
+}
+
+@manual{quanser,
+title = {Coupled Water Tank Experiments},
+organization = {Quanser Consulting Inc.}
+}
+
+@Article{COBEF2003,
+author = {Alberto Jos\'{e} \'{A}lvares and Jo\~{a}o Carlos Esp\'{i}ndola Ferreira},
+title = {Metodologia para implantação de laboratórios remotos via internet na área de automação da manufatura},
+journal = {2º Congresso Brasileiro de Engenharia de Fabricação},
+year = {2003}
+}
+
+@Article{WebLab,
+author = {Awkash Agrawal and Sanjay Srivastava},
+title = {WebLab: A Generic Architecture for Remote Laboratories},
+journal = {15th International Conference on Advanced Computing and Communications},
+year = {2007}
+}
+
+@Misc{Leonardo,
+author = {Leonardo Dantas de Oliveira},
+title = {Desenvolvimento de um Gateway de Comunicação para Interação com Plataformas de Aquisição e Escrita de Dados},
+year = {2008}
+}

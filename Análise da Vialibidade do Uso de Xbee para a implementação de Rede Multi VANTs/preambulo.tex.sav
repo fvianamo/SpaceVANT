@@ -1,0 +1,171 @@
+% ********** P\'{a}gina de assinaturas
+%
+
+\begin{titlepage}
+%
+\begin{center}
+%
+
+%
+\Large \textbf{Uma Proposta de WebLab para Controle de Plantas Industriais Did\'{a}ticas}
+
+\vfill
+
+\Large \textbf{Victor Carvalho Galv\~{a}o de Freitas}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\normalsize
+
+Orientador: Prof. F\'{a}bio Meneghetti Ugulino de Ara\'{u}jo
+
+\vfill
+
+\hfill
+\parbox{0.5\linewidth}{
+% Descomente as opes que se aplicam ao seu caso
+\textbf{Monografia}
+apresentada \`{a} Banca Examinadora do Trabalho de Conclus\~{a}o do Curso de
+Engenharia de Computa\c{c}\~{a}o e Automa\c{c}\~{a}o, em cumprimento \`{a}s exig\^{e}ncias
+legais como requisito parcial \`{a} obten\c{c}\~{a}o do t\'{\i}tulo de Engenheiro de
+Computa\c{c}\~{a}o e Automa\c{c}\~{a}o.}
+
+\vfill
+
+\large
+
+% Este n\'{u}mero de ordem deve ser obtido na coordenao do PPgEE
+% Corresponde ao n\'{u}mero sequencial da sua tese ou dissertao:
+% por exemplo, a 25 tese de doutorado ter o nmero de ordem D25
+% Evidentemente, este dado no existe para propostas de tema, caso
+% em que a prxima linha deve ser comentada.
+%Nmero de ordem PPgEE: M000
+Natal, RN, junho de 2013
+
+\end{center}
+\end{titlepage}
+
+\begin{titlepage}
+% O \noindent \'{e} para eliminar a tabula\c{c}\~{a}o inicial que normalmente \'{e}
+% colocada na primeira frase dos par\'{a}grafos
+\noindent Trabalho de Conclus\~{a}o de Curso aprovado em 20 de dezembro de 2012 pela banca examinadora composta pelos seguintes membros:
+
+\vfill
+
+\begin{center}
+
+------------------------------------------------------------------------------------------------------\\
+\noindent Prof. Dr. Samuel Xavier de Souza (Orientador).......................................DCA/UFRN \\
+\bigskip
+\bigskip
+------------------------------------------------------------------------------------------------------\\
+\noindent Prof. Dr. Agostinho de Medeiros Brito
+J\'{u}nior............................................DCA/UFRN \\
+\bigskip
+\bigskip
+------------------------------------------------------------------------------------------------------\\
+\noindent Prof. Dr. Aquiles Medeiros Filgueira Burlamaqui......................................ECT/UFRN
+
+
+\vfill
+
+\large
+
+% Este n\'{u}mero de ordem deve ser obtido na coordenao do PPgEE
+% Corresponde ao n\'{u}mero sequencial da sua tese ou dissertao:
+% por exemplo, a 25 tese de doutorado ter o nmero de ordem D25
+% Evidentemente, este dado no existe para propostas de tema, caso
+% em que a prxima linha deve ser comentada.
+%Nmero de ordem PPgEE: M000
+Natal, RN, Dezembro de 2012
+
+\end{center}
+\end{titlepage}
+
+%
+% ********** Dedicat\'{o}ria
+%
+
+% A dedicat\'{o}ria n\~{a}o \'{e} obrigat\'{o}ria. Se voc\^{e} tem algu\'{e}m ou algo que teve
+% uma import\^{a}ncia fundamental ao longo do seu curso, pode dedicar a ele(a)
+% este trabalho. Geralmente n\~{a}o se faz dedicat\'{o}ria a v\'{a}rias pessoas: para
+% isso existe a se\c{c}\~{a}o de agradecimentos.
+% Se n\~{a}o quiser dedicat\'{o}ria, basta excluir o texto entre
+% \begin{titlepage} e \end{titlepage}
+
+\begin{titlepage}
+
+\vspace*{\fill}
+
+\hfill
+\begin{minipage}{0.5\linewidth}
+\begin{flushright}
+\large\it
+Dedico este trabalho ao meu av\^{o} e pai de cria\c{c}\~{a}o, Jos\'{e} Carlos de Souza, que mesmo sem estudo, foi a inspira\c{c}\~{a}o e modelo que  levou-me a trilhar o caminho da engenharia.
+\end{flushright}
+\end{minipage}
+
+\vspace*{\fill}
+
+\end{titlepage}
+
+%
+% ********** Agradecimentos
+%
+
+% Os agradecimentos n\~{a}o s\~{a}o obrigat\'{o}rios. Se existem pessoas que lhe
+% ajudaram ao longo do seu curso, pode incluir um agradecimento.
+% Se n\~{a}o quiser agradecimentos, basta excluir o texto ap\'{o}s \chapter*{...}
+
+\chapter*{Agradecimentos}
+\thispagestyle{empty}
+
+\begin{trivlist}  \itemsep 2ex
+
+\item Agrade\c{c}o aos meus pais, Eunice e Nilton, por serem t\~{a}o fundamentais, me dando todo o apoio, carinho, amor e cuidado que precisei para sair do interior e me aventurar a conquistar novos horizontes, sem nunca deixar faltar nada.
+
+\item Aos meus av\'{o}s Jos\'{e} e Zenaide, que fizeram da saudade e do amor uma motiva\c{c}\~{a}o para que eu seguisse adiante, transpassando todos os obst\'{a}culos.
+
+\item A meus primos-irm\~{a}os, Emile, Lucas e Matheus, minha tia Carla, minha irm\~{a} Aracelli e demais familiares, que sempre me acolheram com carinho quando precisei escapar da press\~{a}o dos estudos.
+
+\item Aos amigos antigos de Mossor\'{o}, que acompanharam meus anos de gradua\c{c}\~{a}o sempre me trazendo risos nas horas de alegria ou de dificuldades, e aos novos amigos feitos durante o curso, que sofreram juntos a cada batalha travada, e comemoraram juntos nas partidas de Vegas a cada vit\'{o}ria conquistada.
+
+\item Aos companheiros Albano Rocha, Eduardo Andr\'{e}, Douglas Leandro e Renata Brasil por se disporem a encarar os desafios, como um grupo forte e unido, onde o apoio m\'{u}tuo foi fundamental para o sucesso de todos.
+
+\item A todos os professores que fizeram a diferen\c{c}a em minha forma\c{c}\~{a}o, em especial aos professores Samuel Xavier, S\'{e}rgio Fialho e Adri\~{a}o Duarte, pela disposi\c{c}\~{a}o e confian\c{c}a direcionadas a mim.
+
+\item A minha namorada, Jeanne, que foi minha melhor amiga, companheira e confidente durante todo o per\'{\i}odo de minha gradua\c{c}\~{a}o, me incentivando dia ap\'{o}s dia a n\~{a}o desistir perante os desafios e galgar o meu sucesso neste curso t\~{a}o dif\'{\i}cil.
+
+\item Finalmente agrade\c{c}o a Deus, por ser t\~{a}o generoso comigo, permitindo que seguisse a minha estrada ao lado destas pessoas, me dando assim todas as condi\c{c}\~{o}es para alcan\c{c}ar minhas vit\'{o}rias.
+
+
+
+
+%\item Ao meu orientador e ao meu co-orientador, professores Sicrano
+%e Beltrano, sou grato pela orienta\c{c}\~{a}o.
+%\item Ao professor Apol\^{o}nio pela ajuda na revis\~{a}o deste
+%Trabalho de Gradua\c{c}\~{a}o.
+%\item Aos colegas Huguinho, Zezinho e Luizinho pelas sugest\~{o}es de
+%inclus\~{a}o dos temas abordados.
+%\item Aos demais colegas de gradua\c{c}\~{a}o, pelas cr\'{\i}ticas e sugest\~{o}es.
+%\item \`{A} minha fam\'{\i}lia pelo apoio durante esta jornada.
+
+\end{trivlist}
+
+\newpage
+
+\vspace*{\fill}
+\setlength{\epigraphrule}{1pt}
+\onehalfspacing
+\setlength{\epigraphwidth}{.95\textwidth}
+
+\begin{epigraphs}
+\qitem{
+\textit{"[...]\linebreak N\~{a}o importa se o port\~{a}o \'{e} estreito;\linebreak N\~{a}o importa o peso da m\~{a}o que espalma;\linebreak Eu sou o senhor do meu destino:\linebreak Eu sou o capit\~{a}o de minha alma."}}%
+{\textsc{Invictus -- William E. Henley}}
+\end{epigraphs}
+
+\vspace*{\fill}

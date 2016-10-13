@@ -1,0 +1,136 @@
+\mychapter{Arquitetura de Controle}
+\label{Cap:arquiteturaControle}
+
+Devido \`{a} possibilidade de ocorrer atraso ou falha na transfer\^{e}ncia de dados e at\'{e} mesmo a perda de comunica\c{c}\~{a}o entre cliente e servidor durante a execu\c{c}\~{a}o do experimento, o sinal de controle \'{e} calculado localmente no servidor.
+
+Uma requisi\c{c}\~{a}o feita ao servidor a cada segundo, durante a execu\c{c}\~{a}o do experimento, possibilita que os dados de execu\c{c}\~{a}o localizados no servidor sejam obtidos para a visualiza\c{c}\~{a}o no navegador \emph{Web} do cliente em tempo real.
+
+Apesar de n\~{a}o haver preju\'{\i}zos para a planta, \'{e} desej\'{a}vel que um experimento tenha sua execu\c{c}\~{a}o interrompida no caso de perda de conex\~{a}o entre cliente e servidor. Para assegurar isso, foi implementado um mecanismo de desligamento autom\'{a}tico baseado na ideia de \emph{watchdog}.
+
+Esse mecanismo funciona da seguinte forma: existe uma vari\'{a}vel denominada "watchdog" cujo valor \'{e} atribu\'{\i}do no in\'{\i}cio da execu\c{c}\~{a}o do experimento. A cada per\'{\i}odo de amostragem, o valor dessa vari\'{a}vel \'{e} decrementado em uma unidade, funcionando como um contador regressivo. Se o valor dessa vari\'{a}vel chegar a zero, \'{e} enviado um sinal para que a planta seja desligada. Assim, para evitar o desligamento, o cliente deve, a cada requisi\c{c}\~{a}o feita durante a execu\c{c}\~{a}o, reinicializar o valor dessa vari\'{a}vel. Para calcular seu valor inicial, considera-se o per\'{\i}odo de amostragem da planta e o tempo entre cada requisi\c{c}\~{a}o ao servidor.
+
+Como o per\'{\i}odo de amostragem da planta \'{e} de 0.1 segundos, a vari\'{a}vel "watchdog" \'{e} decrementada em uma unidade nesse per\'{\i}odo. Esse per\'{\i}odo de amostragem \'{e} equivalente a um d\'{e}cimo do tempo de cada requisi\c{c}\~{a}o entre cliente e servidor. Assim, um valor inicial igual a vinte para a vari\'{a}vel watchdog garante que ap\'{o}s dois segundos sem que o servidor receba uma requisi\c{c}\~{a}o do cliente, a vari\'{a}vel atinja o valor zero, o que ocasiona o desligamento da planta.
+
+Os passos realizados no la\c{c}o do algoritmo de controle s\~{a}o basicamente:
+\begin{enumerate}
+\item Ler valores da planta
+\item Calcular a\c{c}\~{a}o de controle
+\item Aplicar sinal de controle \`{a} planta
+\item Enviar dados ao supervis\'{o}rio
+\item Decrementar valor da vari\'{a}vel "watchdog" e verificar se esse valor \'{e} maior que zero
+\end{enumerate}
+
+\section{Sistema em malha aberta}
+O sistema pode operar em modo malha aberta. Nesse caso, um sinal espec\'{\i}fico \'{e} gerado e enviado \`{a} planta. A seguir, s\~{a}o descritos os sinais que podem ser gerados.
+
+\subsection*{Degrau}
+Por defini\c{c}\~{a}o, o sinal degrau \'{e} dado pela equa\c{c}\~{a}o:
+\begin{equation}
+\label{eq:eqDegrau}
+    u(t)=
+    \left\{\begin{array}{ll}
+        A, & \text{se } t\geq{0};\\
+        0, & \text{se } t<0.
+    \end{array}\right.
+\end{equation}
+onde $A$ \'{e} uma constante que determina a amplitude do sinal. No caso particular em que $A=1$, esse sinal \'{e} denominado \textbf{degrau unit\'{a}rio}.
+
+\subsection*{Senoide}
+Uma senoide \'{e} um sinal peri\'{o}dico que pode ser expresso na forma:
+\begin{equation}
+\label{eq:degrau}
+    u(t)=A\sin(\omega t+\phi)
+\end{equation}
+onde $A$ \'{e} a amplitude do sinal e $\omega=2\pi f$ \'{e} a frequ\^{e}ncia angular.
+
+\subsection*{Onda quadrada}
+A onda quadrada \'{e} um sinal de per\'{\i}odo $T$ que pode ser representado pela equa\c{c}\~{a}o abaixo:
+\begin{equation}
+\label{eq:ondaQuadrada}
+    u(t)=
+    \left\{\begin{array}{rcr}
+        -A, & \text{se } & -\frac{T}{2} \leq t \leq 0;\\
+        A, & \text{se } & 0 \leq t \leq \frac{T}{2}.
+    \end{array}\right.
+\end{equation}
+
+Para cada um desses sinais, \'{e} poss\'{\i}vel configurar um valor de \emph{offset}, que \'{e} um valor a ser somado na amplitude do sinal. Outros tipos de sinal, como sinal aleat\'{o}rio ou dente de serra, podem ser facilmente acrescentados posteriormente, se necess\'{a}rio.
+
+\section{Controladores}
+Existem diversas t\'{e}cnicas de controle, tais como controle adaptativo, controle preditivo e controle inteligente. O tipo de controlador utilizado neste trabalho \'{e} o Proporcional-Integral-Derivativo, ou simplesmente PID. Os controladores PID possuem grande utilidade, pois s\~{a}o capazes de resolver diversos problemas de controle, e s\~{a}o os mais empregados nos problemas de controle industrial \cite{Astrom}.
+
+\subsection{Controladores PID}
+O controlador PID gera uma a\c{c}\~{a}o de controle $u$ que depende de tr\^{e}s termos:
+\begin{itemize}
+    \item Um termo proporcional ao erro;
+    \item Um termo proporcional \`{a} integral do erro;
+    \item Um termo proporcional \`{a} derivada do erro.
+\end{itemize}
+
+A equa\c{c}\~{a}o abaixo apresenta uma descri\c{c}\~{a}o matem\'{a}tica desse tipo de controlador.
+\begin{equation}
+\label{eq:pid_tempo_continuo}
+u(t)=K_{p}e(t)+K_{i}\int_{0}^{t}e(\tau)\,\mathrm{d}\tau+K_{d}\frac{de(t)}{dt}
+\end{equation}
+onde o erro $e(t)$ \'{e} definido como a diferen\c{c}a entre o sinal de refer\^{e}ncia e a sa\'{\i}da do sistema. As constantes $k_{p}$, $k_{i}$ e $k_{d}$ s\~{a}o denominadas, respectivamente, ganho proporcional, ganho integral e ganho derivativo.
+
+Aplicando a transformada de Laplace em \eqref{eq:pid_tempo_continuo}, obt\'{e}m-se a fun\c{c}\~{a}o de transfer\^{e}ncia $G_{c}(s)$:
+\begin{displaymath}
+G_{c}(s)=\frac{U(s)}{E(S)}=k_{p}+\frac{k_{i}}{s}+k_{d}s
+\end{displaymath}
+
+Essa equa\c{c}\~{a}o deve ser discretizada a fim de ser implementada em um computador digital. Foram feitas aproxima\c{c}\~{o}es discretas para os termos derivativo e integrativo. Para o termo derivativo, utilizou-se a discretiza\c{c}\~{a}o conhecida como \emph{backward}, que \'{e} feita da seguinte forma:
+\begin{displaymath}
+u(kT)=\frac{1}{T}(e(kT)-e[(k-1)T])
+\end{displaymath}
+
+cuja transformada $Z$ \'{e}:
+\begin{displaymath}
+\frac{z-1}{Tz}E(z)
+\end{displaymath}
+
+O termo integrativo foi discretizado pelo m\'{e}todo conhecido como \emph{forward}:
+\begin{displaymath}
+u(kT)=u[(k-1)T]+Te(kT)
+\end{displaymath}
+
+onde $u(kT)$ \'{e} a saida do integrador no instante $t=kT$ e cuja transformada $Z$ \'{e} dada por
+\begin{displaymath}
+U(z)=z^{-1}U(z)+TE(z)
+\end{displaymath}
+
+e sua fun\c{c}\~{a}o de transfer\^{e}ncia:
+\begin{displaymath}
+\frac{U(z)}{X(z)}=\frac{Tz}{z-1}
+\end{displaymath}
+
+Portanto, a fun\c{c}\~{a}o de transfer\^{e}ncia discreta do controlador PID \'{e} dada por:
+\begin{equation}
+\label{eq:pid_transformada_z}
+G_{c}(z)=k_{p}+\frac{k_{i}Tz}{z-1}+k_{d}\frac{z-1}{Tz}
+\end{equation}
+
+Seja $x(kT)=x(k)$. Aplicando a transformada Z inversa em \eqref{eq:pid_transformada_z}, obt\'{e}m-se uma equa\c{c}\~{a}o de diferen\c{c}as que representa o controlador PID:
+\begin{equation}
+\label{eq:pid_tempo_discreto}
+u[k]=K_{p}e[k]+K_{i}(u[k-1]+Te[k])+K_{d}\left(\frac{e[k]-e[k-1]}{T}\right)
+\end{equation}
+
+Existem diversos aspectos pr\'{a}ticos relacionados ao modo como o PID \'{e} implementado em computadores digitais que podem influenciar significativamente o desempenho do sistema de controle, como filtragem do termo derivativo e transfer\^{e}ncia suave de modo manual para autom\'{a}tico.
+
+Al\'{e}m disso, existem limites de opera\c{c}\~{a}o relacionados aos atuadores como, por exemplo, o n\'{\i}vel m\'{a}ximo de tens\~{a}o que pode ser aplicado \`{a} bomba no sistema de tanques acoplados. Logo, o sinal de controle calculado pelo controlador pode ter seu valor saturado de acordo com a faixa de opera\c{c}\~{a}o do atuador. Essa satura\c{c}\~{a}o pode ser descrita matematicamente pela equa\c{c}\~{a}o \ref{eq:eqSaturacao}.
+
+\begin{equation}
+\label{eq:eqSaturacao}
+    u(t)=
+    \left\{\begin{array}{ll}
+        u_{min}, & \text{se } u(t) < u_{min};\\
+        u(t), & \text{se } u_{min} \leq{u(t)}\leq u_{max};\\
+        u_{max}, & \text{se }  u(t) > u_{max}.
+    \end{array}\right.
+\end{equation}
+onde $u$ \'{e} o sinal de controle calculado e $u_{min}$ e $u_{max}$ representam os limites de opera\c{c}\~{a}o do atuador.
+
+Quando ocorre a satura\c{c}\~{a}o, o valor do termo integral pode se tornar muito grande, gerando respostas oscilat\'{o}rias. \'{E} o chamado efeito \emph{wind-up}. Uma estrat\'{e}gia simples para evitar o efeito \emph{wind-up}, adotada neste trabalho, consiste em desabilitar a soma do termo integral quando o sinal de controle sofre satura\c{c}\~{a}o.
+
+Outro problema est\'{a} relacionado a varia\c{c}\~{o}es do sinal de refer\^{e}ncia. Essas varia\c{c}\~{o}es implicam em valores muito altos para o termo derivativo devido \`{a} mudan\c{c}a praticamente instant\^{a}nea do erro. O esquema adotado, denominado PI-D, consiste em calcular o termo derivativo levando em conta a sa\'{\i}da ao inv\'{e}s do erro, considerando que nessas situa\c{c}\~{o}es a sa\'{\i}da geralmente varia mais lentamente que o sinal de erro. 

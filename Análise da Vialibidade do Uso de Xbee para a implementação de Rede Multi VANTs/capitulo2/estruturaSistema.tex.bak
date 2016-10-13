@@ -1,0 +1,277 @@
+\mychapter{Arquitetura de Software}
+\label{Cap:arquiteturaSoftware}
+
+\section{Decis\~{o}es de projeto}
+Optou-se por utilizar somente tecnologias de licen\c{c}a \emph{open source}.
+
+Diversas tecnologias podem ser utilizadas na implementa\c{c}\~{a}o de clientes para laborat\'{o}rios remotos. Pode-se dividir essas tecnologias em:
+\begin{itemize}
+\item Aplica\c{c}\~{o}es \emph{desktop}: executadas no computador do cliente.
+\item Aplica\c{c}\~{o}es \emph{Web}: executadas no servidor e acessadas por um navegador \emph{Web} no computador do cliente.
+\end{itemize}
+
+As aplica\c{c}\~{o}es \emph{desktop} geralmente s\~{a}o capazes de implementar mais funcionalidades que aplica\c{c}\~{o}es \emph{Web} , por\'{e}m esse tipo de aplica\c{c}\~{a}o requer que o usu\'{a}rio instale o \emph{software} em seu computador, motivo pelo qual optou-se por descartar a utiliza\c{c}\~{a}o desta abordagem. Dentre as diversas tecnologias dispon\'{\i}veis para o desenvolvimento de aplica\c{c}\~{o}es \emph{Web} \cite{Deusto}, Java Web foi a escolhida.
+
+Java \'{e} uma linguagem de programa\c{c}\~{a}o orientada a objetos de alto n\'{\i}vel. Segundo o \'{\i}ndice TIOBE\footnote{O \'{\i}ndice TIOBE \'{e} um indicador da popularidade de linguagens de programa\c{c}\~{a}o. Pode ser acessado em \url{http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html}}, \'{e} uma das linguagens de programa\c{c}\~{a}o mais utilizadas no mundo. Possui uma extensa biblioteca padr\~{a}o e vasta documenta\c{c}\~{a}o. As aplica\c{c}\~{o}es desenvolvidas em Java podem ser executadas na maioria dos sistemas operacionais.
+
+\subsection{Java Web}
+Uma aplica\c{c}\~{a}o Java Web consiste de um conjunto de arquivos de configura\c{c}\~{a}o, classes compiladas, bibliotecas e de recursos est\'{a}ticos e din\^{a}micos, sendo todos tratados como uma unidade em um \emph{container} de \emph{servlets}.
+
+Uma \emph{servlet} \'{e} uma classe Java que l\^{e} e processa os dados da requisi\c{c}\~{a}o (\emph{request}) de um cliente e devolve uma resposta (\emph{response}), como uma p\'{a}gina HTML. As \emph{servlets} possibilitam a gera\c{c}\~{a}o de conte\'{u}do din\^{a}mico a partir de classes Java.
+
+A especifica\c{c}\~{a}o Java Servlet define um \emph{Web Container}, uma aplica\c{c}\~{a}o \emph{Web} e uma API \emph{Wervlet}, que une o \emph{container} \`{a} aplica\c{c}\~{a}o.
+
+Um \emph{container} de \emph{servlets} \'{e} an\'{a}logo a um servidor \emph{Web}, por\'{e}m esse tamb\'{e}m \'{e} capaz de gerenciar aplica\c{c}\~{o}es \emph{Web}. O container prov\^{e} servi\c{c}os que d\~{a}o suporte \`{a} API \emph{servlet} que \'{e} usada pela aplica\c{c}\~{a}o para interagir com requisi\c{c}\~{o}es e respostas HTTP.
+
+O \emph{Web Container} \'{e} o componente do servidor que interage com as \emph{servlets} Java. Ele \'{e} respons\'{a}vel por gerenciar o ciclo de vida de \emph{servlets} e mapear uma URL para uma determinada \emph{servlet}. \'{E} ele que implementa o componente \emph{Web} do contrato da especifica\c{c}\~{a}o Java EE.
+
+Tipicamente, uma aplica\c{c}\~{a}o \emph{Web} \'{e} "empacotada" em um arquivo WAR (\emph{Web ARchive}), que nada mais \'{e} do que um arquivo compactado com uma estrutura de diret\'{o}rios bem definida. O diret\'{o}rio "WEB-INF" cont\'{e}m os arquivos de configura\c{c}\~{a}o, o diret\'{o}rio "lib" cont\'{e}m as bibliotecas (empacotadas em arquivos JAR) e o diret\'{o}rio "classes" cont\'{e}m as classes compiladas.
+
+
+\section{Tecnologias utilizadas}
+As principais tecnologias utilizadas ser\~{a}o brevemente descritas nas se\c{c}\~{o}es seguintes.
+
+\subsection{Tomcat 7.0}
+O Apache Tomcat \'{e} um servidor \emph{Web} e \emph{container} de \emph{servlets} desenvolvido pela Apache Software Foundation, que implementa a especifica\c{c}\~{a}o Java Servlet da Sun Microsystem e prov\^{e} um ambiente \emph{Web} para executar c\'{o}digos Java.
+
+\subsection{Java Server Faces 2.1}
+JavaServer Faces (JSF) \'{e} um \emph{framework} padr\~{a}o Java para constru\c{c}\~{a}o de interfaces de usu\'{a}rio em aplica\c{c}\~{o}es \emph{Web}. JSF simplifica o desenvolvimento da interface de usu\'{a}rio, fazendo uso de componentes gr\'{a}ficos reutiliz\'{a}veis em uma p\'{a}gina, facilitando a implementa\c{c}\~{a}o de um das partes mais dif\'{\i}ceis e tediosas no desenvolvimento de uma aplica\c{c}\~{a}o \emph{Web} \cite{JSF}. A partir da vers\~{a}o 2.0 o JSF incorpora suporte nativo a Ajax e sua especifica\c{c}\~{a}o define um conjunto padr\~{a}o de componentes e fornece ainda uma API para o desenvolvimento de novos componentes.
+
+\subsection{Primefaces 3.4}
+PrimeFaces \'{e} uma popular biblioteca de componentes JSF que possui f\'{a}cil instala\c{c}\~{a}o, al\'{e}m de contar com uma comunidade ativa de usu\'{a}rios e inclur um rico conjunto de componentes, tais como editores HTML (\emph{HyperText Markup Language}), gr\'{a}ficos din\^{a}micos e suporte a recursos multim\'{\i}dia.
+
+\subsection{Spring 3.1}
+Spring \'{e} um \emph{framework} de aplica\c{c}\~{a}o para ambientes Java que inclui m\'{o}dulos para controle de transa\c{c}\~{a}o, intera\c{c}\~{a}o com ferramentas de persist\^{e}ncia, desenvolvimento \emph{Web}, entre outros. Suas principais caracter\'{\i}sticas s\~{a}o inje\c{c}\~{a}o de depend\^{e}ncia e programa\c{c}\~{a}o orientada a aspectos \cite{SpringInAction}.
+
+\subsection{Spring Security}
+O Spring Security \'{e} um \emph{framework} baseado no Spring que prov\^{e} ferramentas para o gerenciamento de autoriza\c{c}\~{a}o e autentica\c{c}\~{a}o tanto no n\'{\i}vel de requisi\c{c}\~{o}es \emph{Web} quanto no n\'{\i}vel de invoca\c{c}\~{a}o de m\'{e}todos \cite{SpringInAction}.
+
+\subsection{PostgreSQL 9.2}
+ O PostgreSQL \'{e} um poderoso sistema gerenciador de banco de dados objeto-relacional, utilizado nas mais diversas aplica\c{c}\~{o}es, desde as mais simples at\'{e} grandes aplica\c{c}\~{o}es corporativas, possuindo alta escalabilidade. \'{E} multiplataforma (roda nos principais sistemas operacionais) e possui interface nativa de programa\c{c}\~{a}o para a linguagem Java, al\'{e}m de vasta documenta\c{c}\~{a}o. Possui diversos recursos sofisticados [\url{http://www.postgresql.org/docs/9.2/static/index.html}] , tais como:
+\begin{itemize}
+\item Controle de concorr\^{e}ncia multiversionado;
+\item Recupera\c{c}\~{a}o em um ponto no tempo;
+\item Suporte a conjunto de caracteres internacionais;
+\item Replica\c{c}\~{a}o ass\'{\i}ncrona;
+\item Heran\c{c}a m\'{u}ltipla.
+\end{itemize}
+Mais informa\c{c}\~{o}es podem ser encontradas em: .
+
+\subsection{Hibernate 4.1}
+O Hibernate \'{e} uma ferramenta de mapeamento objeto-relacional para ambientes Java, ou seja, realiza o mapeamento de classes Java em tabelas de um banco de dados relacional e tipos de dados Java em tipos de dados SQL, al\'{e}m de fornecer facilidades de consulta. Mais informa\c{c}\~{o}es em: \url{http://docs.jboss.org/hibernate/orm/4.1/manual/en-US/html/}.
+
+\section{Divis\~{a}o em camadas}
+Na programa\c{c}\~{a}o orientada a objetos, uma camada pode ser definida como um conjunto de classes que s\~{a}o respons\'{a}veis pela realiza\c{c}\~{a}o de tarefas espec\'{\i}ficas e bem definidas. A disposi\c{c}\~{a}o de um programa em camadas pode ser entendida conceitualmente como uma pilha, representada pela Figura \ref{fig:arquiteturaCamadasPadrao}.
+
+\begin{figure}[h]
+  \center
+  \includegraphics[scale=0.5]{layersDefault}
+  \caption{Arquitetura em camadas.}
+  \label{fig:arquiteturaCamadasPadrao}
+\end{figure}
+
+A camada $n$ utiliza os servi\c{c}os providos pela camada $n-1$, mas a camada $n-1$ independe e n\~{a}o precisa ter conhecimento da camada $n$. Contudo, varia\c{c}\~{o}es desse esquema de comunica\c{c}\~{a}o inter-camadas podem ser adotadas permitindo, por exemplo, os seguintes cen\'{a}rios (Figura \ref{fig:arquiteturaCamadasModificada}):
+\begin{itemize}
+\item Uma camada $n-1$ pode enviar notifica\c{c}\~{o}es para uma camada $n$.
+\item Uma camada $n$ pode se comunicar com uma camada que \'{e} mais de um n\'{\i}vel abaixo dela.
+\end{itemize}
+
+\begin{figure}[h]
+  \center
+  \includegraphics[scale=0.5]{layersModified}
+  \caption{Arquitetura em camadas modificada.}
+  \label{fig:arquiteturaCamadasModificada}
+\end{figure}
+
+A separa\c{c}\~{a}o de um \emph{software} em camadas \'{e} uma maneira de reduzir a complexidade do sistema, proporcionando diversas vantagens \cite{ArquiteturaCamadas}, tais como:
+\begin{itemize}
+\item Reduzir a depend\^{e}ncia de implementa\c{c}\~{o}es espec\'{\i}ficas, pois \'{e} poss\'{\i}vel substituir camadas por implementa\c{c}\~{o}es alternativas que forne\c{c}am os mesmos servi\c{c}os;
+\item Reuso de \emph{software}. Uma camada bem definida e bem documentada pode ser utilizada em diversos sistemas;
+\item Facilidade no entendimento do sistema.
+\end{itemize}
+Por outro lado, tamb\'{e}m pode-se identificar algumas desvantagens nessa abordagem, como por exemplo:
+\begin{itemize}
+\item Uma mudan\c{c}a no comportamento de uma camada pode implicar mudan\c{c}as em diversas outras camadas;
+\item Maior custo computacional.
+\end{itemize}
+
+\subsection*{O padr\~{a}o \emph{Model View Controller}}
+A arquitetura do WebLab utiliza o padr\~{a}o \emph{Model View Controller} (MVC), que pode ser definido como um padr\~{a}o de design que separa um software em tr\^{e}s camadas:
+\begin{description}
+\item[1) \emph{Model} ou Modelo] - cont\'{e}m informa\c{c}\~{o}es sobre o dom\'{\i}nio, incluindo seus dados e comportamentos.
+\item[2) \emph{View} ou Apresenta\c{c}\~{a}o] - respons\'{a}vel pela visualiza\c{c}\~{a}o dos dados do \emph{model}.
+\item[3) \emph{Controller} ou Controle] - realiza a intera\c{c}\~{a}o entre a camada \emph{Model} e a \emph{View}, manipulando o \emph{model} e atualizando a \emph{view}.
+\end{description}
+
+\begin{figure}[h!]
+  \center
+  \includegraphics[scale=1]{mvc}
+  \label{fig:mvc}
+  \caption{O padr\~{a}o \emph{Model View Controller.}}
+\end{figure}
+
+Esse padr\~{a}o prov\^{e} uma clara separa\c{c}\~{a}o entre as camadas de apresenta\c{c}\~{a}o e modelo, ilustrada na Figura 2.3.
+
+\subsection*{Camada de dom\'{\i}nio}
+\'{E} a camada de modelo do MVC. Cont\'{e}m as classes que modelam o dom\'{\i}nio do sistema, representados pelas seguintes entidades:
+\begin{itemize}
+    \item Usu\'{a}rio;
+    \item Experimento;
+    \item Dados de execu\c{c}\~{a}o do experimento;
+    \item Dados de visualiza\c{c}\~{a}o do experimento;
+    \item \emph{Slot} de tempo;
+    \item Controlador manual (controle em malha aberta);
+    \item Controlador PID;
+    \item Planta.
+\end{itemize}
+
+Um diagrama de classes UML\footnote{Do ingl\^{e}s, "Unified Modeling Language".} simplificado - incluindo as principais classes, m\'{e}todos e atributos - \'{e} apresentado na Figura 2.4.
+\begin{figure}
+  \center
+  \includegraphics[scale=0.5]{diagramaClasses}
+  \label{fig:diagramaClasses}
+  \caption{Diagrama UML das classes de dom\'{\i}nio.}
+\end{figure}
+
+
+\subsection*{Camada de persist\^{e}ncia}
+Respons\'{a}vel pelas opera\c{c}\~{o}es relativas \`{a} intera\c{c}\~{a}o entre as entidades do sistema e o banco de dados, tais como consulta e persist\^{e}ncia de dados. Implementa o padr\~{a}o DAO\footnote{do ingl\^{e}s, "Data Access Objects".}, que tem como objetivo separar as regras de neg\'{o}cio das regras de acesso a dados.
+
+Al\'{e}m disso, essa camada possui uma interface chamada "GenericDAO" que deve ser implementada por todas as classes da camada DAO do sistema. Ela define m\'{e}todos gen\'{e}ricos que s\~{a}o aplic\'{a}veis a qualquer objeto persistente\footnote{Objeto persistente \'{e} aquele que deve ser armazenado no banco de dados.}.
+
+A interface "GenericDAO" \'{e} implementada pela classe "GenericDAOHibernate", que \'{e} estendida pelas demais classes DAO do sistema, como "ExperimentDAO" e "UserDAO", que necessitam de opera\c{c}\~{o}es mais espec\'{\i}ficas, como validar o cadastro de um experimento ou usu\'{a}rio. A classe "GenericDaoHibernate" faz uso do Hibernate para a consulta e persist\^{e}ncia dos dados.
+
+\subsection*{Camada de servi\c{c}os}
+A camada de servi\c{c}os cont\'{e}m a classe "ServiceCadastro", que \'{e} respons\'{a}vel por fornecer funcionalidades de acesso \`{a} camada DAO em opera\c{c}\~{o}es transacionais, utilizando o controle de transa\c{c}\~{a}o fornecido pelo Spring.
+
+Cont\'{e}m ainda a classe "ServiceCadastraAdmin". Essa classe \'{e} utilizada por uma \emph{servlet} que verifica, na inicializa\c{c}\~{a}o da aplica\c{c}\~{a}o no servidor, se existe pelo menos um usu\'{a}rio administrador cadastrado no banco de dados. Caso contr\'{a}rio, \'{e} criado um usu\'{a}rio padr\~{a}o com \emph{login} "admin" e senha "admin".
+
+\subsection*{Camada de controle}
+Cont\'{e}m os \emph{Managed Beans} "UserMBean" e "ExperimentMBean", respons\'{a}veis pelo CRUD\footnote{Do ingl\^{e}s, "Create-Retrieve-Update-Delete", sigla comumente utilizada para indicar as opera\c{c}\~{o}es de inser\c{c}\~{a}o, busca, atualiza\c{c}\~{a}o e exclus\~{a}o de uma entidade no banco de dados} de usu\'{a}rio e de experimento, respectivamente. \'{E} equivalente \`{a} camada de controle do MVC. Essa camada cont\'{e}m ainda uma classe "AbstractMBean" que possui comportamento comum a todos os \emph{Managed Beans} do sistema e, portanto, \'{e} estendida por todos eles.
+
+\subsection*{Camada de apresenta\c{c}\~{a}o}
+Essa \'{e} a camada de apresenta\c{c}\~{a}o do MVC e cont\'{e}m as p\'{a}ginas XHTML da aplica\c{c}\~{a}o e os arquivos de folhas de estilo (CSS). Utiliza diversos componentes do PrimeFaces.
+
+\subsection{Principais classes}
+A seguir, ser\~{a}o descritas algumas classes do sistema que modelam caracter\'{\i}sticas espec\'{\i}ficas da planta utilizada e do esquema de conex\~{a}o apresentados neste trabalho.
+
+\subsubsection*{Classe "TanquesAcoplados"}
+Representa a planta, um sistema de tanques acoplados, provendo m\'{e}todos para obten\c{c}\~{a}o de informa\c{c}\~{o}es sobre a planta, como n\'{\i}veis dos tanques e sinal de tens\~{a}o. \'{E} respons\'{a}vel por saturar o sinal de tens\~{a}o a ser enviado \`{a} planta, al\'{e}m de  implementar travas de seguran\c{c}a de n\'{\i}vel que consistem em desligar a bomba em situa\c{c}\~{o}es onde ocorrem comportamentos inadequados, tais como bombear \'{a}gua quando o tanque j\'{a} est\'{a} cheio ou drenar \'{a}gua quando o tanque estiver vazio.
+
+\subsubsection*{Classe "ThreadControle"}
+A classe "ThreadControle" utiliza a classe "Timer"\footnote{Mais informa\c{c}\~{o}es em \url{http://docs.oracle.com/javase/1.5.0/docs/api/java/util/Timer.html}} para implementar um timer respons\'{a}vel pelas a\c{c}\~{o}es de controle que, quando ativado, \'{e} executado a cada per\'{\i}odo de amostragem. Essa classe ainda \'{e} respons\'{a}vel pela intera\c{c}\~{a}o entre supervis\'{o}rio, controlador e planta.
+
+\subsubsection*{Classe "GerenciadorConexaoPlanta"}
+Essa classe foi criada com o objetivo de gerenciar a intera\c{c}\~{a}o entre a aplica\c{c}\~{a}o \emph{Web} e a placa de aquisi\c{c}\~{a}o, atrav\'{e}s de um \emph{gateway}. Fornece m\'{e}todos para leitura e escrita na placa de aquisi\c{c}\~{a}o de dados e garante que s\'{o} existe uma conex\~{a}o entre a aplica\c{c}\~{a}o \emph{Web} e placa de aquisi\c{c}\~{a}o, evitando assim que mais de um usu\'{a}rio do sistema possa se comunicar com a planta simultaneamente.
+
+\section{Controle de acesso}
+O controle de acesso da aplica\c{c}\~{a}o \'{e} baseado em pap\'{e}is, que definem um conjunto de responsabilidades ou permiss\~{o}es atribu\'{\i}das a um usu\'{a}rio. No WebLab, foram definidos dois papeis: usu\'{a}rio administrador e usu\'{a}rio comum. Ao usu\'{a}rio comum, \'{e} permitido:
+\begin{itemize}
+\item Gerenciar seus pr\'{o}prios experimentos: criar, editar, executar e visualizar resultados;
+\item Cadastrar e executar seus pr\'{o}prios experimentos;
+\item Salvar e visualizar os dados de execu\c{c}\~{a}o de seus experimentos;
+\item Editar dados pessoais.
+\end{itemize}
+
+Ao usu\'{a}rio administrador, al\'{e}m das mesmas permiss\~{o}es de um usu\'{a}rio comum, lhe \'{e} poss\'{\i}vel:
+\begin{itemize}
+\item Cadastrar e remover usu\'{a}rios;
+\item Listar e/ou excluir qualquer experimento;
+\item Visualizar os resultados qualquer experimento.
+\end{itemize}
+
+O \emph{framework} Spring Security \'{e} utilizado para realizar o controle de autentica\c{c}\~{a}o e autoriza\c{c}\~{a}o. Autentica\c{c}\~{a}o \'{e} o processo que busca verificar a identidade digital de um usu\'{a}rio, em geral, atrav\'{e}s de um nome de usu\'{a}rio e senha, contudo outros m\'{e}todos de valida\c{c}\~{a}o podem ser utilizados, tais como impress\~{a}o digital e padr\~{a}o de voz. Por sua vez, a autoriza\c{c}\~{a}o verifica se o usu\'{a}rio, uma vez autenticado, possui permiss\~{a}o apropriada para executar a opera\c{c}\~{a}o desejada.
+
+\begin{figure}[h!]
+  \center
+  \includegraphics[scale=0.45]{login}
+  \label{fig:login}
+  \caption{Tela de autentica\c{c}\~{a}o do WebLab.}
+\end{figure}
+
+Para entrar no sistema, o usu\'{a}rio deve autenticar-se fornecendo \emph{login} e senha (Figura 2.5), que s\~{a}o comparados com os dados que foram informados no cadastro desse usu\'{a}rio, armazenados no banco de dados. A listagem \ref{appContextAutenticacao} mostra como \'{e} feito o controle de autoriza\c{c}\~{a}o no Spring Security.
+
+\lstset{language=XML, caption=Trecho do arquivo "applicationContext-security.xml", label=appContextAutenticacao}
+\begin{lstlisting}
+<authentication-manager>
+  <authentication-provider>
+  <password-encoder hash="md5" />			
+  <jdbc-user-service id="userService"
+    data-source-ref="dataSource"
+    users-by-username-query="SELECT login AS username, passwd AS password, 'true' AS enable FROM usuario WHERE login=?"
+    authorities-by-username-query="SELECT login AS username, role AS authority FROM usuario WHERE login=?" />
+  </authentication-provider>
+</authentication-manager>
+\end{lstlisting}
+
+Ainda no arquivo "applicationContext-security.xml", s\~{a}o definidos os padr\~{o}es de URL que podem ser acessados por cada usu\'{a}rio a partir do papel que lhe foi atribu\'{\i}do, listados a seguir:
+\begin{itemize}
+\item A p\'{a}gina de autentica\c{c}\~{a}o (/login.xhtml) pode ser acessada por qualquer usu\'{a}rio, autenticado ou n\~{a}o.
+\item As p\'{a}ginas sob o diret\'{o}rio /admin s\'{o} podem ser acessadas por usu\'{a}rios administradores.
+\item Demais p\'{a}ginas podem ser acessadas por qualquer usu\'{a}rio autenticado.
+\end{itemize}
+
+A seguit, um trecho do arquivo de configura\c{c}\~{a}o que permite definir o controle de autoriza\c{c}\~{a}o no Spring Security \'{e} apresentado:
+\lstset{language=XML, caption=Trecho do arquivo "applicationContext-security.xml" , label=appContextAutorizacao}
+\begin{lstlisting}
+<http auto-config="true" use-expressions="true">
+  <form-login login-page="/login.xhtml" default-target-url="/index.xhtml"
+    authentication-failure-url="/login.xhtml?login_error=1" />
+  <logout logout-success-url="/login.xhtml" invalidate-session="true" />
+  <intercept-url pattern="/login.xhtml*" access="permitAll" />
+  <intercept-url pattern="/admin/**" access="hasRole('ADMIN')" />
+  <intercept-url pattern="/**" access="hasAnyRole('USUARIO', 'ADMIN')" />
+</http>
+\end{lstlisting}
+
+Caso um usu\'{a}rio tente acessar uma p\'{a}gina sem possuir a permiss\~{a}o adequada, ele \'{e} direcionado para uma p\'{a}gina que informa que ele n\~{a}o pode acessar o recurso desejado (Figura 2.6).
+
+\begin{figure}[h!]
+  \center
+  \includegraphics[scale=0.45]{acessoNegado}
+  \label{fig:acessoNegado}
+  \caption{Tela de acesso negado.}
+\end{figure}
+
+\section{O banco de dados}
+Um banco de dados \'{e} utilizado para armazenar diversas informa\c{c}\~{o}es da aplica\c{c}\~{a}o:
+\begin{itemize}
+\item Dados dos usu\'{a}rios;
+\item Informa\c{c}\~{o}es sobre sintonia dos controladores cadastrados;
+\item Resultados da execu\c{c}\~{a}o de experimentos.
+\end{itemize}
+
+\subsection{Configura\c{c}\~{a}o do \emph{data source}}
+Um \emph{data source} \'{e} um mecanismo que permite que o servidor gerencie o acesso \`{a} conex\~{a}o com o banco de dados. Para utilizar as funcionalidades de persist\^{e}ncia que o Spring oferece, \'{e} necess\'{a}rio declarar e configurar um \emph{data source} em um arquivo de configura\c{c}\~{a}o "applicationContext.xml", mostrado na listagem \ref{appContextDataSource}. O arquivo "db-info.properties" cont\'{e}m os par\^{a}metros de configura\c{c}\~{a}o necess\'{a}rios \`{a} conex\~{a}o.
+
+\lstset{language=XML, caption=Trecho do arquivo "applicationContext.xml", label=appContextDataSource}
+\begin{lstlisting}
+<bean id="propertiesPlacholder"
+    class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" lazy-init="false">
+    <property name="location" value="/WEB-INF/db-conf/db-info.properties" />
+</bean>
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName">
+	  <value>${driver}</value>
+	</property>
+	<property name="url">
+	  <value>${banco}</value>
+    </property>
+	<property name="username">
+	  <value>${usuario}</value>
+	</property>
+    <property name="password">
+	  <value>${senha}</value>
+	</property>
+</bean>
+\end{lstlisting}
+
+Por fim, o diagrama entidade-relacionamento da Figura 2.7 representa as tabelas do banco de dados.
+
+\begin{figure}[h!]
+  \center
+  \includegraphics[scale=0.6]{ERDiagram}
+  \label{fig:ERDiagram}
+  \caption{Diagrama entidade-relacionamento.}
+\end{figure}
+

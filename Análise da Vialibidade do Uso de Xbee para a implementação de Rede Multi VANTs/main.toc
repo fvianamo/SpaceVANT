@@ -1,0 +1,34 @@
+\select@language {brazil}
+\contentsline {chapter}{Sum\'{a}rio}{i}
+\contentsline {chapter}{Lista de Figuras}{ii}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {section}{\numberline {1.1}Objetivos}{2}
+\contentsline {section}{\numberline {1.2}Estrutura do documento}{3}
+\contentsline {chapter}{\numberline {2}Esrtutura do Sistema}{4}
+\contentsline {section}{\numberline {2.1}Instala\IeC {\c c}\IeC {\~o}es do Laborat\IeC {\'o}rio}{4}
+\contentsline {subsection}{\numberline {2.1.1}Modo de opera\IeC {\c c}\IeC {\~a}o do circuito 1}{5}
+\contentsline {subsection}{\numberline {2.1.2}Modo de opera\IeC {\c c}\IeC {\~a}o do circuito 2}{6}
+\contentsline {section}{\numberline {2.2}Especifica\IeC {\c c}\IeC {\~o}es te\IeC {\'o}ricas}{6}
+\contentsline {section}{\numberline {2.3}Instrumentos Utilizados}{7}
+\contentsline {section}{\numberline {2.4}Caracter\IeC {\'\i }sticas e Especifica\IeC {\c c}\IeC {\~o}es T\IeC {\'e}cnicas}{8}
+\contentsline {subsection}{\numberline {2.4.1}Sensores PT100}{8}
+\contentsline {subsection}{\numberline {2.4.2}WEG TPW-03}{9}
+\contentsline {subsection}{\numberline {2.4.3}NOVUS N2000}{11}
+\contentsline {subsection}{\numberline {2.4.4}Elipse SCADA}{12}
+\contentsline {subsection}{\numberline {2.4.5}Protocolo Modbus}{12}
+\contentsline {subsubsection}{Modos de Opera\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {chapter}{\numberline {3}Implementa\IeC {\c c}\IeC {\~o}es}{16}
+\contentsline {section}{\numberline {3.1}Comunica\IeC {\c c}\IeC {\~a}o}{16}
+\contentsline {subsection}{\numberline {3.1.1}Protocolo de Comunica\IeC {\c c}\IeC {\~a}o}{17}
+\contentsline {section}{\numberline {3.2}Configura\IeC {\c c}\IeC {\~o}es dos par\IeC {\^a}metros do WEG TPW-03}{19}
+\contentsline {subsection}{\numberline {3.2.1}Configura\IeC {\c c}\IeC {\~a}o do m\IeC {\'o}dulo 8AD}{20}
+\contentsline {section}{\numberline {3.3}Configura\IeC {\c c}\IeC {\~a}o dos par\IeC {\^a}metros do NOVUS N2000}{22}
+\contentsline {section}{\numberline {3.4}Comunica\IeC {\c c}\IeC {\~a}o com o Sistema Supervis\IeC {\'o}rio}{22}
+\contentsline {chapter}{\numberline {4}Aplica\IeC {\c c}\IeC {\~a}o e Testes}{24}
+\contentsline {section}{\numberline {4.1}Desenvolvimento do Sistema Supervis\IeC {\'o}rio}{24}
+\contentsline {section}{\numberline {4.2}Testes Desenvolvidos}{26}
+\contentsline {chapter}{\numberline {5}Conclus\~{a}o}{28}
+\contentsline {section}{\numberline {5.1}Dificuldades Encontradas}{28}
+\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{29}
+\contentsline {subsection}{\numberline {5.2.1}Outras T\IeC {\'e}cnicas de Comunica\IeC {\c c}\IeC {\~a}o}{29}
+\contentsline {subsection}{\numberline {5.2.2}CLPs como mestres de uma rede Modbus}{29}

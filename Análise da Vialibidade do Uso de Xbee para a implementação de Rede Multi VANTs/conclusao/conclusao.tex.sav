@@ -1,0 +1,39 @@
+\mychapter{Conclus\~{a}o}
+\label{Cap:conclusao}
+
+Ao analisar este trabalho, pode-se observar que o principal objetivo foi cumprido. A aplica\c{c}\~{a}o desenvolvida disponibiliza acesso remoto controlado ao sistema de tanques dispon\'{\i}vel no laborat\'{o}rio, permitindo realizar o controle da planta e armazenar os dados de execu\c{c}\~{a}o dos experimentos.
+
+A maior contribui\c{c}\~{a}o deste trabalho foi o desenvolvimento de uma arquitetura de \emph{software} que pode ser facilmente reaproveitada em trabalhos futuros, gra\c{c}as \`{a} preocupa\c{c}\~{a}o em documentar os aspectos relevantes da implementa\c{c}\~{a}o, \`{a} aplica\c{c}\~{a}o de t\'{e}cnicas de reuso de \emph{software} e \`{a} utiliza\c{c}\~{a}o de \emph{frameworks} bem consolidados no mercado.
+
+\section{Dificuldades encontradas}
+Um tempo consideravelmente alto foi gasto na instala\c{c}\~{a}o, configura\c{c}\~{a}o e utiliza\c{c}\~{a}o dos \emph{frameworks} usados na implementa\c{c}\~{a}o deste trabalho, tarefas que demandam um n\'{\i}vel de conhecimento relativamente alto, principalmente com rela\c{c}\~{a}o ao Spring, que aplica t\'{e}cnicas como inje\c{c}\~{a}o de depend\^{e}ncia e programa\c{c}\~{a}o orientada a aspectos.
+
+\section{Trabalhos futuros}
+Durante a implementa\c{c}\~{a}o do sistema, p\^{o}de-se observar diversas necessidades apresentadas por um ambiente de experimenta\c{c}\~{a}o remota. As principais necessidades identificadas s\~{a}o apresentadas nesta se\c{c}\~{a}o.
+
+\subsection{Aprimoramento do supervis\'{o}rio}
+Um ponto muito importante a ser melhorado \'{e} a inclus\~{a}o de uma funcionalidade de \emph{streaming} de v\'{\i}deo, para que seja poss\'{\i}vel exibir uma representa\c{c}\~{a}o visual da planta durante a execu\c{c}\~{a}o do experimento, aumentando assim a experi\^{e}ncia com o usu\'{a}rio.
+
+\subsection{Diferentes t\'{e}cnicas de agendamento}
+Como o gerenciamento de uso da planta \'{e} fundamental, em trabalhos futuros uma maior aten\c{c}\~{a}o deve ser dada \`{a} quest\~{a}o do agendamento de experimentos. Algumas estrat\'{e}gias consideradas, por\'{e}m n\~{a}o implementadas, s\~{a}o as seguintes:
+\begin{itemize}
+\item Incluir no sistema uma \'{a}rea onde o administrador possa escolher a dura\c{c}\~{a}o de cada slot de tempo, o n\'{u}mero m\'{a}ximo permitido por usu\'{a}rios, entre outros par\^{a}metros;
+\item Excluir automaticamente uma reserva de hor\'{a}rio caso o usu\'{a}rio que fez a reserva n\~{a}o execute o experimento no hor\'{a}rio determinado;
+\item Punir usu\'{a}rios que reservam hor\'{a}rio, mas n\~{a}o executam os experimentos, impedindo que esses reservem novos hor\'{a}rios durante um determinado per\'{\i}odo de tempo. Essa medida teria como objetivo incentivar o bom uso do laborat\'{o}rio.
+\end{itemize}
+
+\subsection{An\'{a}lise de resultados}
+Uma funcionalidade importante a ser disponibilizada ao administrador do sistema, do ponto de vista da avalia\c{c}\~{a}o dos resultados obtidos pelos usu\'{a}rios, seria uma \'{a}rea no site onde pudessem ser visualizadas medidas de desempenho dos controladores como, por exemplo, menor tempo de acomoda\c{c}\~{a}o, menor erro e menor sobressinal.
+
+Al\'{e}m da an\'{a}lise dos resultados, tamb\'{e}m seria interessante apresentar estat\'{\i}sticas de uso do laborat\'{o}rio, tais como hor\'{a}rios de maior demanda e usu\'{a}rios que mais acessam o sistema.
+
+\subsection{Aprimoramento do \emph{hardware} e do esquema de conex\~{a}o}
+Embora a rigor a aplica\c{c}\~{a}o seja capaz de ser acessada a partir de qualquer cliente com acesso \`{a} \emph{internet}, pode-se afirmar que, com o esquema de comunica\c{c}\~{a}o dispon\'{\i}vel atualmente, n\~{a}o \'{e} recomendado o uso remoto da planta sem que sua opera\c{c}\~{a}o seja supervisionada localmente por operador humano.
+
+Entre os problemas identificados, pode-se destacar frequentes falhas de conex\~{a}o do \emph{gateway} com a rede e descalibra\c{c}\~{a}o dos sensores da planta. Este \'{u}ltimo \'{e} uma quest\~{a}o cr\'{\i}tica, j\'{a} que as travas de seguran\c{c}a implementadas em \emph{software} que evitam o transbordamento da \'{a}gua nos tanques dependem exclusivamente da informa\c{c}\~{a}o de n\'{\i}vel fornecida por esses sensores.
+
+\subsection{Calibra\c{c}\~{a}o autom\'{a}tica dos sensores}
+Com a utiliza\c{c}\~{a}o de t\'{e}cnicas de processamento de imagem, \'{e} poss\'{\i}vel implementar um algoritmo de calibra\c{c}\~{a}o "virtual" dos sensores da planta. Isso pode ser feito atrav\'{e}s de um ajuste linear (m\'{\i}nimos quadrados, por exemplo), utilizando informa\c{c}\~{o}es da leitura dos sensores e medi\c{c}\~{o}es visuais dos n\'{\i}veis em pelo menos dois pontos distintos. 
+
+\subsection{\emph{Upload} de sinais de controle}
+No modo de opera\c{c}\~{a}o em malha aberta, seria interessante implementar uma funcionalidade no sistema para permitir que o usu\'{a}rio possa fazer o \emph{upload} sinais  utilizados na identifica\c{c}\~{a}o do sistema como, por exemplo, o PRBS (\emph{Pseudo Random Binary Signal}). J\'{a} no modo malha fechada, o usu\'{a}rio poderia definir sua pr\'{o}pria lei de controle, seja na forma de um arquivo JAR (\emph{Java ARchive}) ou outro m\'{e}todo que permita encapsular um algoritmo de controle. 

@@ -1,0 +1,34 @@
+\mychapter{Introdu\c{c}\~{a}o}
+\label{Cap:introducao}
+
+A utiliza\c{c}\~{a}o de laborat\'{o}rios \'{e} essencial para um melhor entendimento sobre os diversos conceitos da teoria de controle de sistemas din\^{a}micos. Al\'{e}m de melhorar o entendimento sobre a teoria, as pr\'{a}ticas de laborat\'{o}rio apresentam diversos desafios presentes em aplica\c{c}\~{o}es reais, tais como problemas num\'{e}ricos, imperfei\c{c}\~{o}es no modelo da planta, ru\'{\i}do dos sensores e atrasos de transporte.
+
+Contudo, os custos da aquisi\c{c}\~{a}o e manuten\c{c}\~{a}o dos diversos equipamentos necess\'{a}rios a um laborat\'{o}rio s\~{a}o elevados. Isto pode acarretar na utiliza\c{c}\~{a}o de laborat\'{o}rios virtuais \cite{Deusto}, que consistem de modelos computacionais que visam simular processos reais. Al\'{e}m do custo tipicamente menor, outra vantagem da utiliza\c{c}\~{a}o de ambiente de simula\c{c}\~{a}o \'{e} a n\~{a}o exist\^{e}ncia da possibilidade do usu\'{a}rio danificar os equipamentos, e a opera\c{c}\~{a}o incorreta do sistema n\~{a}o traz riscos ao pr\'{o}prio operador. Entretanto, principalmente em algumas \'{a}reas espec\'{\i}ficas, como na teoria de sistemas de controle, a substitui\c{c}\~{a}o de experimentos em processos f\'{\i}sicos reais por simula\c{c}\~{o}es computacionais traria preju\'{\i}zos ao processo de aprendizagem.
+
+Nesse contexto, uma alternativa razo\'{a}vel \'{e} o uso de laborat\'{o}rios remotos, cujos controle e supervis\~{a}o dos processos f\'{\i}sicos s\~{a}o mediados via um computador servidor conectado a uma rede espec\'{\i}fica de comunica\c{c}\~{a}o, disponibilizando acesso remoto aos experimentos reais do laborat\'{o}rio, como ilustrado na figura \ref{fig:arquiteturaTipicaLabRemoto}. Uma vantagem no quesito custo \'{e} que um mesmo laborat\'{o}rio pode ter seu uso compartilhado por diversas institui\c{c}\~{o}es de ensino, reduzindo o custo por aluno. Al\'{e}m disso, laborat\'{o}rios remotos n\~{a}o possuem as restri\c{c}\~{o}es t\'{\i}picas de tempo e lugar, apresentando assim maior disponibilidade.
+
+\begin{figure}[h]
+\center
+\includegraphics[scale=0.8]{arquitetura.PNG}
+\caption{Arquitetura t\'{\i}pica de um laborat\'{o}rio remoto.}
+   \label{fig:arquiteturaTipicaLabRemoto}
+\end{figure}
+
+V\'{a}rios laborat\'{o}rios remotos com implementa\c{c}\~{o}es e recursos diversos t\^{e}m sido propostos \cite{Deusto}, por exemplo, o Laborat\'{o}rio de Experimenta\c{c}\~{a}o Remota (RExLab) da Universidade Federal de Santa Catarina (dispon\'{\i}vel em \url{http://rexlab.ararangua.ufsc.br/}) e o WebLab-Deusto da Universidade de Deusto na Espanha (dispon\'{\i}vel em \url{https://www.weblab.deusto.es/weblab/client/}).
+
+No entanto, vale ressaltar que a experimenta\c{c}\~{a}o remota n\~{a}o \'{e} necessariamente uma atividade de prop\'{o}sito educacional. Na ind\'{u}stria, assim como em centros de pesquisa, o controle remoto de dispositivos atrav\'{e}s da \emph{internet} tamb\'{e}m \'{e} utilizado. Um exemplo \'{e} a Volkswagen que desenvolve laborat\'{o}rios remotos para testes de motores visando a redu\c{c}\~{a}o de custos por meio do compartilhamento de sua estrutura laboratorial entre a matriz na Alemanha e uma filial no M\'{e}xico \cite{COBEF2003}.
+
+\section{Objetivos}
+Os principais objetivos deste trabalho s\~{a}o:
+\begin{itemize}
+\item Desenvolver uma aplica\c{c}\~{a}o \emph{web}, denominada "WebLab", que permite o acesso remoto controlado ao sistema de tanques Quanser, dispon\'{\i}vel no Laborat\'{o}rio de Controle do DCA-UFRN;
+\item Implementar os controladores a serem utilizados no controle da planta;
+\item Utilizar um banco de dados para armazenar dados de usu\'{a}rios e dados relativos \`{a} execu\c{c}\~{a}o dos experimentos.
+\item Utilizar t\'{e}cnicas de engenharia de \emph{software} com o objetivo de desenvolver um sistema com arquitetura suficientemente flex\'{\i}vel
+  para adaptar o sistema para plantas diferentes da usada no desenvolvimento deste trabalho;
+\item Documentar os aspectos relevantes no desenvolvimento da aplica\c{c}\~{a}o a fim de que aprimoramentos do sistema e
+novas funcionalidades possam ser implementadas em trabalhos futuros at\'{e} mesmo por outros alunos.
+\end{itemize}
+
+\section{Estrutura do documento}
+Este trabalho est\'{a} estruturado em seis cap\'{\i}tulos. Nesse primeiro cap\'{\i}tulo, foi realizada uma breve discuss\~{a}o sobre a utiliza\c{c}\~{a}o de diferentes tipos de laborat\'{o}rios, al\'{e}m disso, foram apresentados os principais objetivos do trabalho. O cap\'{\i}tulo 2 descreve aspectos relacionados ao desenvolvimento do \emph{software}, como tecnologias e t\'{e}cnicas de projeto adotadas; o cap\'{\i}tulo 3 apresenta basicamente uma fundamenta\c{c}\~{a}o te\'{o}rica sobre os controladores implementados; j\'{a} no cap\'{\i}tulo 4, \'{e} descrita a planta utilizada e o esquema de comunica\c{c}\~{a}o entre a aplica\c{c}\~{a}o desenvolvida e a planta; o cap\'{\i}tulo 5 ilustra as principais funcionalidades do sistema. Por fim, o cap\'{\i}tulo 6 apresenta a conclus\~{a}o e algumas propostas de trabalhos futuros.
