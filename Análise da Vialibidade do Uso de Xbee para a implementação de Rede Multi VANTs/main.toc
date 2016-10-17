@@ -1,8 +1,12 @@
 \select@language {brazil}
-\contentsline {chapter}{Sum\'{a}rio}{i}
+\contentsline {chapter}{Sum\IeC {\'a}rio}{i}
 \contentsline {chapter}{Lista de Figuras}{ii}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
-\contentsline {chapter}{\numberline {2}Esrtutura do Sistema}{2}
-\contentsline {chapter}{\numberline {3}Implementa\IeC {\c c}\IeC {\~o}es}{3}
-\contentsline {chapter}{\numberline {4}Aplica\IeC {\c c}\IeC {\~a}o e Testes}{4}
-\contentsline {chapter}{\numberline {5}Conclus\~{a}o}{5}
+\contentsline {section}{\numberline {1.1}Objetivos}{2}
+\contentsline {section}{\numberline {1.2}Estrutura do Trabalho}{2}
+\contentsline {chapter}{\numberline {2}Projeto SpaceVANT}{3}
+\contentsline {chapter}{\numberline {3}Requisitos de um Rede Multi VANTs}{4}
+\contentsline {chapter}{\numberline {4}Estrat\IeC {\'e}gia de Varredura Desenvolvida}{5}
+\contentsline {chapter}{\numberline {5}Procedimento Experimental e Equipamentos Utilizados}{6}
+\contentsline {chapter}{\numberline {6}Resultados Experimentais}{7}
+\contentsline {chapter}{\numberline {7}Conclus\~{a}o}{8}

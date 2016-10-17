@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 OCT 2016 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 OCT 2016 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,8 +645,9 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 
 Writing glossary file main.glo 
 (./main.aux (./rosto.aux) (./preambulo.aux) (./resumos.aux)
-(./capitulo1/introducao.aux) (./capitulo2/estruturaSistema.aux)
-(./capitulo3/implementacoes.aux) (./capitulo4/aplicacaoTestes.aux)
+(./capitulo1/introducao.aux) (./capitulo2/SpaceVANT.aux)
+(./capitulo3/Requisitos.aux) (./capitulo4/Estrategia.aux)
+(./capitulo5/Procedimento.aux) (./capitulo6/Resultados.aux)
 (./conclusao/conclusao.aux))
 \openout1 = `main.aux'.
 
@@ -805,34 +806,52 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 
 (./capitulo1/introducao.tex
 Cap\'{\i }tulo 1.
-) [1
+[1
 
 
 
-]
-\openout2 = `capitulo2/estruturaSistema.aux'.
+]) [2]
+\openout2 = `capitulo2/SpaceVANT.aux'.
 
- (./capitulo2/estruturaSistema.tex
+ (./capitulo2/SpaceVANT.tex
 Cap\'{\i }tulo 2.
-) [2
-
-
-
-]
-\openout2 = `capitulo3/implementacoes.aux'.
-
- (./capitulo3/implementacoes.tex
-Cap\'{\i }tulo 3.
 ) [3
 
 
 
 ]
-\openout2 = `capitulo4/aplicacaoTestes.aux'.
+\openout2 = `capitulo3/Requisitos.aux'.
 
- (./capitulo4/aplicacaoTestes.tex
-Cap\'{\i }tulo 4.
+ (./capitulo3/Requisitos.tex
+Cap\'{\i }tulo 3.
 ) [4
+
+
+
+]
+\openout2 = `capitulo4/Estrategia.aux'.
+
+ (./capitulo4/Estrategia.tex
+Cap\'{\i }tulo 4.
+) [5
+
+
+
+]
+\openout2 = `capitulo5/Procedimento.aux'.
+
+ (./capitulo5/Procedimento.tex
+Cap\'{\i }tulo 5.
+) [6
+
+
+
+]
+\openout2 = `capitulo6/Resultados.aux'.
+
+ (./capitulo6/Resultados.tex
+Cap\'{\i }tulo 6.
+) [7
 
 
 
@@ -840,34 +859,36 @@ Cap\'{\i }tulo 4.
 \openout2 = `conclusao/conclusao.aux'.
 
  (./conclusao/conclusao.tex
-Cap\'{\i }tulo 5.
-) [5
+Cap\'{\i }tulo 7.
+) [8
 
 
 
 ]
 No file main.bbl.
 (./main.aux (./rosto.aux) (./preambulo.aux) (./resumos.aux)
-(./capitulo1/introducao.aux) (./capitulo2/estruturaSistema.aux)
-(./capitulo3/implementacoes.aux) (./capitulo4/aplicacaoTestes.aux)
+(./capitulo1/introducao.aux) (./capitulo2/SpaceVANT.aux)
+(./capitulo3/Requisitos.aux) (./capitulo4/Estrategia.aux)
+(./capitulo5/Procedimento.aux) (./capitulo6/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6073 strings out of 493014
- 80402 string characters out of 6133351
- 153754 words of memory out of 5000000
- 9378 multiletter control sequences out of 15000+600000
- 64759 words of font info for 79 fonts, out of 8000000 for 9000
+ 6096 strings out of 493014
+ 80722 string characters out of 6133351
+ 155498 words of memory out of 5000000
+ 9383 multiletter control sequences out of 15000+600000
+ 67546 words of font info for 81 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 41i,13n,35p,492b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,35p,862b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhv
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 80451 bytes).
+texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (17 pages, 95262 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
