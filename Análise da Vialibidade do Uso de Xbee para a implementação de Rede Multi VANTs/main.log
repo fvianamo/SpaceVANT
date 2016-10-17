@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 OCT 2016 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 OCT 2016 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,8 +646,8 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 Writing glossary file main.glo 
 (./main.aux (./rosto.aux) (./preambulo.aux) (./resumos.aux)
 (./capitulo1/introducao.aux) (./capitulo2/SpaceVANT.aux)
-(./capitulo3/Requisitos.aux) (./capitulo4/Estrategia.aux)
-(./capitulo5/Procedimento.aux) (./capitulo6/Resultados.aux)
+(./capitulo3/Requisitos.aux) (./capitulo4/Estrategia.aux) (./capitulo5/Xbee.aux
+) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux))
 \openout1 = `main.aux'.
 
@@ -838,20 +838,29 @@ Cap\'{\i }tulo 4.
 
 
 ]
-\openout2 = `capitulo5/Procedimento.aux'.
+\openout2 = `capitulo5/Xbee.aux'.
 
- (./capitulo5/Procedimento.tex
+ (./capitulo5/Xbee.tex
 Cap\'{\i }tulo 5.
 ) [6
 
 
 
 ]
-\openout2 = `capitulo6/Resultados.aux'.
+\openout2 = `capitulo6/Procedimento.aux'.
 
- (./capitulo6/Resultados.tex
+ (./capitulo6/Procedimento.tex
 Cap\'{\i }tulo 6.
 ) [7
+
+
+
+]
+\openout2 = `capitulo7/Resultados.aux'.
+
+ (./capitulo7/Resultados.tex
+Cap\'{\i }tulo 7.
+) [8
 
 
 
@@ -859,8 +868,8 @@ Cap\'{\i }tulo 6.
 \openout2 = `conclusao/conclusao.aux'.
 
  (./conclusao/conclusao.tex
-Cap\'{\i }tulo 7.
-) [8
+Cap\'{\i }tulo 8.
+) [9
 
 
 
@@ -868,14 +877,14 @@ Cap\'{\i }tulo 7.
 No file main.bbl.
 (./main.aux (./rosto.aux) (./preambulo.aux) (./resumos.aux)
 (./capitulo1/introducao.aux) (./capitulo2/SpaceVANT.aux)
-(./capitulo3/Requisitos.aux) (./capitulo4/Estrategia.aux)
-(./capitulo5/Procedimento.aux) (./capitulo6/Resultados.aux)
+(./capitulo3/Requisitos.aux) (./capitulo4/Estrategia.aux) (./capitulo5/Xbee.aux
+) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6096 strings out of 493014
- 80722 string characters out of 6133351
- 155498 words of memory out of 5000000
- 9383 multiletter control sequences out of 15000+600000
+ 6106 strings out of 493014
+ 80877 string characters out of 6133351
+ 155871 words of memory out of 5000000
+ 9385 multiletter control sequences out of 15000+600000
  67546 words of font info for 81 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  41i,13n,35p,862b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -885,10 +894,10 @@ r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 95262 bytes).
+Output written on main.pdf (18 pages, 96086 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
