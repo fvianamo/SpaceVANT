@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 OCT 2016 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 OCT 2016 01:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,16 +774,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
- [1
+) [1
 
-]) [2]
+]
 \openout2 = `resumos.aux'.
 
- (./resumos.tex [3
+ (./resumos.tex [2
 
 
 
-]) [4
+]) [3
 
 ] (./main.toc)
 \tf@toc=\write4
@@ -815,16 +815,21 @@ Cap\'{\i }tulo 1.
 
  (./capitulo2/SpaceVANT.tex
 Cap\'{\i }tulo 2.
-) [3
+[3
 
 
 
-]
+] <penguin.jpg, id=43, 632.3625pt x 421.575pt>
+File: penguin.jpg Graphic file (type jpg)
+ <use penguin.jpg>
+Package pdftex.def Info: penguin.jpg used on input line 21.
+(pdftex.def)             Requested size: 298.75262pt x 199.1695pt.
+) [4 <./penguin.jpg>]
 \openout2 = `capitulo3/Requisitos.aux'.
 
  (./capitulo3/Requisitos.tex
 Cap\'{\i }tulo 3.
-) [4
+) [5
 
 
 
@@ -833,7 +838,7 @@ Cap\'{\i }tulo 3.
 
  (./capitulo4/Estrategia.tex
 Cap\'{\i }tulo 4.
-) [5
+) [6
 
 
 
@@ -842,7 +847,7 @@ Cap\'{\i }tulo 4.
 
  (./capitulo5/Xbee.tex
 Cap\'{\i }tulo 5.
-) [6
+) [7
 
 
 
@@ -851,7 +856,7 @@ Cap\'{\i }tulo 5.
 
  (./capitulo6/Procedimento.tex
 Cap\'{\i }tulo 6.
-) [7
+) [8
 
 
 
@@ -860,7 +865,7 @@ Cap\'{\i }tulo 6.
 
  (./capitulo7/Resultados.tex
 Cap\'{\i }tulo 7.
-) [8
+) [9
 
 
 
@@ -869,7 +874,7 @@ Cap\'{\i }tulo 7.
 
  (./conclusao/conclusao.tex
 Cap\'{\i }tulo 8.
-) [9
+) [10
 
 
 
@@ -881,11 +886,11 @@ No file main.bbl.
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6106 strings out of 493014
- 80877 string characters out of 6133351
- 155871 words of memory out of 5000000
- 9385 multiletter control sequences out of 15000+600000
- 67546 words of font info for 81 fonts, out of 8000000 for 9000
+ 6101 strings out of 493014
+ 80820 string characters out of 6133351
+ 155883 words of memory out of 5000000
+ 9382 multiletter control sequences out of 15000+600000
+ 61252 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  41i,13n,35p,862b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
@@ -894,10 +899,10 @@ r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 96086 bytes).
+Output written on main.pdf (18 pages, 112465 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
