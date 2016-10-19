@@ -13,3 +13,4 @@
 \contentsline {chapter}{\numberline {6}Procedimento Experimental}{8}
 \contentsline {chapter}{\numberline {7}Resultados Experimentais}{9}
 \contentsline {chapter}{\numberline {8}Conclus\~{a}o}{10}
+\contentsline {chapter}{Refer\^{e}ncias bibliogr\'{a}ficas}{11}

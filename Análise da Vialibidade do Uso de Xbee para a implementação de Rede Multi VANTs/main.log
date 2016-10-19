@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 OCT 2016 01:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 OCT 2016 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,31 +878,32 @@ Cap\'{\i }tulo 8.
 
 
 
-]
-No file main.bbl.
-(./main.aux (./rosto.aux) (./preambulo.aux) (./resumos.aux)
-(./capitulo1/introducao.aux) (./capitulo2/SpaceVANT.aux)
+] (./main.bbl) [11
+
+
+] (./main.aux (./rosto.aux) (./preambulo.aux)
+(./resumos.aux) (./capitulo1/introducao.aux) (./capitulo2/SpaceVANT.aux)
 (./capitulo3/Requisitos.aux) (./capitulo4/Estrategia.aux) (./capitulo5/Xbee.aux
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6101 strings out of 493014
- 80820 string characters out of 6133351
- 155883 words of memory out of 5000000
- 9382 multiletter control sequences out of 15000+600000
+ 6115 strings out of 493014
+ 81060 string characters out of 6133351
+ 156033 words of memory out of 5000000
+ 9394 multiletter control sequences out of 15000+600000
  61252 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 41i,13n,35p,862b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,35p,893b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhv
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 112465 bytes).
+Output written on main.pdf (19 pages, 115162 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

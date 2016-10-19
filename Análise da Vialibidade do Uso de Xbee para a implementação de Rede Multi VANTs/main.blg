@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ppgee.bst
+A level-1 auxiliary file: rosto.aux
+A level-1 auxiliary file: preambulo.aux
+A level-1 auxiliary file: resumos.aux
+A level-1 auxiliary file: capitulo1/introducao.aux
+A level-1 auxiliary file: capitulo2/SpaceVANT.aux
+A level-1 auxiliary file: capitulo3/Requisitos.aux
+A level-1 auxiliary file: capitulo4/Estrategia.aux
+A level-1 auxiliary file: capitulo5/Xbee.aux
+A level-1 auxiliary file: capitulo6/Procedimento.aux
+A level-1 auxiliary file: capitulo7/Resultados.aux
+A level-1 auxiliary file: conclusao/conclusao.aux
+Database file #1: bibliografia.bib
+You've used 2 entries,
+            2923 wiz_defined-function locations,
+            629 strings with 4778 characters,
+and the built_in function-call counts, 8183 in all, are:
+= -- 1348
+> -- 78
+< -- 0
++ -- 623
+- -- 28
+* -- 709
+:= -- 1634
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 28
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 32
+empty$ -- 72
+format.name$ -- 38
+if$ -- 1470
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 2
+newline$ -- 9
+num.names$ -- 20
+pop$ -- 6
+preamble$ -- 1
+purify$ -- 30
+quote$ -- 0
+skip$ -- 27
+stack$ -- 0
+substring$ -- 1901
+swap$ -- 6
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 46
+width$ -- 0
+write$ -- 26
