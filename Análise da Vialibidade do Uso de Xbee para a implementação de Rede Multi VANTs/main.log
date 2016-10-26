@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 OCT 2016 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 OCT 2016 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,16 +829,16 @@ Package pdftex.def Info: penguin.jpg used on input line 21.
 
  (./capitulo3/Requisitos.tex
 Cap\'{\i }tulo 3.
-) [5
+[5
 
 
 
-]
+]) [6]
 \openout2 = `capitulo4/Estrategia.aux'.
 
  (./capitulo4/Estrategia.tex
 Cap\'{\i }tulo 4.
-) [6
+) [7
 
 
 
@@ -847,7 +847,7 @@ Cap\'{\i }tulo 4.
 
  (./capitulo5/Xbee.tex
 Cap\'{\i }tulo 5.
-) [7
+) [8
 
 
 
@@ -856,7 +856,7 @@ Cap\'{\i }tulo 5.
 
  (./capitulo6/Procedimento.tex
 Cap\'{\i }tulo 6.
-) [8
+) [9
 
 
 
@@ -865,7 +865,7 @@ Cap\'{\i }tulo 6.
 
  (./capitulo7/Resultados.tex
 Cap\'{\i }tulo 7.
-) [9
+) [10
 
 
 
@@ -874,11 +874,11 @@ Cap\'{\i }tulo 7.
 
  (./conclusao/conclusao.tex
 Cap\'{\i }tulo 8.
-) [10
+) [11
 
 
 
-] (./main.bbl) [11
+] (./main.bbl) [12
 
 
 ] (./main.aux (./rosto.aux) (./preambulo.aux)
@@ -887,10 +887,10 @@ Cap\'{\i }tulo 8.
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6115 strings out of 493014
- 81060 string characters out of 6133351
- 156033 words of memory out of 5000000
- 9394 multiletter control sequences out of 15000+600000
+ 6119 strings out of 493014
+ 81148 string characters out of 6133351
+ 156104 words of memory out of 5000000
+ 9398 multiletter control sequences out of 15000+600000
  61252 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  41i,13n,35p,893b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -900,10 +900,10 @@ r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 115162 bytes).
+Output written on main.pdf (20 pages, 121051 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
