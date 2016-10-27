@@ -13,6 +13,16 @@ Gupta, Lav, Raj Jain \harvardand\ Gabor Vaszkun  \harvardyearleft
   networks', {\em IEEE Communications Surveys \& Tutorials} {\bf
   18}(2),~1123--1152.
 
+\harvarditem{Marro \harvardand\ Gon{\c{c}}alves}{2013}{marro2013path}
+Marro, Alessandro~Assi \harvardand\ Luiz Marcos~Garcia Gon{\c{c}}alves
+  \harvardyearleft 2013\harvardyearright , A path planning method for multi-uav
+  system, {\em em} `Robotics Symposium and Competition (LARS/LARC), 2013 Latin
+  American', IEEE, pp.~129--135.
+
+\harvarditem{{\"O}st}{2012}{ost2012search}
+{\"O}st, Gustav  \harvardyearleft 2012\harvardyearright , `Search path
+  generation with uav applications using approximate convex decomposition'.
+
 \harvarditem{Whitehead \harvardand\ Hugenholtz}{2014}{UAVSurveypt1}
 Whitehead, Ken \harvardand\ Chris~H Hugenholtz  \harvardyearleft
   2014\harvardyearright , `Remote sensing of the environment with small
