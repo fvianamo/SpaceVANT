@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 OCT 2016 01:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2016 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -798,6 +798,8 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 
  (./capitulo1/introducao.tex
 Cap\'{\i }tulo 1.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 4.
 [1
 
 
@@ -811,18 +813,21 @@ Cap\'{\i }tulo 2.
 
 
 
-] <penguin.jpg, id=40, 632.3625pt x 421.575pt>
+] <penguin.jpg, id=41, 632.3625pt x 421.575pt>
 File: penguin.jpg Graphic file (type jpg)
  <use penguin.jpg>
 Package pdftex.def Info: penguin.jpg used on input line 21.
 (pdftex.def)             Requested size: 298.75262pt x 199.1695pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
 ) [4 <./penguin.jpg>]
 \openout2 = `capitulo3/Requisitos.aux'.
 
  (./capitulo3/Requisitos.tex
 Cap\'{\i }tulo 3.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 22.
 [5
 
 
@@ -832,7 +837,12 @@ File: perdaNo.png Graphic file (type png)
  <use perdaNo.png>
 Package pdftex.def Info: perdaNo.png used on input line 41.
 (pdftex.def)             Requested size: 298.75262pt x 186.7262pt.
- [6 <./perdaNo.png>]) [7]
+ [6 <./perdaNo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+) [7]
 \openout2 = `capitulo4/Estrategia.aux'.
 
  (./capitulo4/Estrategia.tex
@@ -864,8 +874,12 @@ File: comsubdivisao.png Graphic file (type png)
  <use comsubdivisao.png>
 Package pdftex.def Info: comsubdivisao.png used on input line 45.
 (pdftex.def)             Requested size: 213.39566pt x 162.76312pt.
-)
-[10 <./comsubdivisao.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+) [10 <./comsubdivisao.png>]
 \openout2 = `capitulo5/Xbee.aux'.
 
  (./capitulo5/Xbee.tex
@@ -910,13 +924,13 @@ Cap\'{\i }tulo 8.
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6159 strings out of 493014
- 81849 string characters out of 6133351
+ 6163 strings out of 493014
+ 81898 string characters out of 6133351
  157283 words of memory out of 5000000
- 9433 multiletter control sequences out of 15000+600000
- 62695 words of font info for 81 fonts, out of 8000000 for 9000
+ 9436 multiletter control sequences out of 15000+600000
+ 65417 words of font info for 83 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 41i,13n,35p,893b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,35p,923b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr
@@ -924,7 +938,7 @@ cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr
 sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 206420 bytes).
+Output written on main.pdf (22 pages, 210558 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream

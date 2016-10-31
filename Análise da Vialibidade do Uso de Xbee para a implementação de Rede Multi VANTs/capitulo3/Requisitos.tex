@@ -15,7 +15,7 @@ Por outro lado, como são formadas por vários nós, as redes multi VANTs são m
 Portanto, a rede multi VANTs possuem características especificas que a diferencia de outra redes tais quais a complexidade da mobilidade dos nós, o poder de reorganização da rede para garantir a sobrevivência e escalabilidade da mesma e, por consequência disso tudo, a necessidade de otimização do consumo energético para garantir maior tempo de operação do sistema como um todo.
 \end{comment}
 
-As redes multi VANTs são uma evolução das redes formadas por apenas um VANT e a base de controle, onde toda a troca de informações era realizada atraves de um \emph{link} entre as duas partes do sistema e caso esse \emph{link} fosse quebrado por algum motivo toda a rede era desfeita. A rede multi VANTs, então, com intuito de aumentar o alcance e a confiabilidade da rede através da adição de novos nós.
+As redes multi VANTs são uma evolução das redes formadas por apenas um VANT e a base de controle, onde toda a troca de informações é realizada atraves de um \emph{link} entre as duas partes do sistema e caso esse \emph{link} fosse quebrado por algum motivo toda a rede era desfeita. A rede multi VANTs, então, com intuito de aumentar o alcance e a confiabilidade da rede através da adição de novos nós.
 
 \cite{gupta2015survey} apresenta algumas das característica de uma rede multi VANTs comparando-as a solução de um único VANT, sendo elas:
 \begin{itemize}
@@ -34,7 +34,7 @@ Por definição uma rede multi VANTs é uma versão escalada da solução compos
 
 Como mencionado anteriormente, na solução formada por VANT mais base de controle, a rede é composta por apenas um \emph{link} e caso esse seja quebrado a comunicação entre os nós dessa rede será perdida. No entanto, dado que uma rede multi VANTs será formada múltiplos nós e \emph{links}, em caso da perda de um nó a rede pode se reorganizar e garantir a sobrevivência da rede como um todo. 
 
-Por exemplo, em uma rede composta por quatro nós como mostra a fig. \ref{fig:perdaNo}, no caso de falha do nó B, a comunicação entre os nós entre os nós A e D poderá ser feita através do nó C, garantindo assim a sobrevivência da rede. 
+Por exemplo, em uma rede composta por quatro nós em topologia \emph{mesh} como mostra a fig. \ref{fig:perdaNo}, no caso de falha do nó B, a comunicação entre os nós entre os nós A e D poderá ser feita através do nó C, garantindo assim a sobrevivência da rede. 
 
 \begin{figure} 
 \center
@@ -55,4 +55,6 @@ Outro ponto que aumente ainda mais essa complexidade é a frequente mudança de 
 
 \section{Economia de Energia}
 
-Como VANTs possuem fonte de alimentação limitada, é importante garantir que rede funcione da forma mais eficiente possível quanto ao consumo de energia, de tal forma que os nós possam permanecer ativos na rede pelo máximo de tempo possível. Caso a rede de comunicação consuma muita energia dos VANTs, será necessário a substituição de nós durante a execução de uma missão o que, consequentemente, aumentará o tempo necessário para a realização da mesma. 
+Como VANTs possuem fonte de alimentação limitada, é importante garantir que rede funcione da forma mais eficiente possível quanto ao consumo de energia, de tal forma que os nós possam permanecer ativos na rede pelo máximo de tempo possível. Caso a rede de comunicação consuma muita energia dos VANTs, será necessário a substituição de nós durante a execução de uma missão o que, consequentemente, aumentará o tempo necessário para a realização da mesma.\\
+
+As características discutidas nessa sessão servirão de base para produção do protocolo de testes e, por fim, desenvolvimento da arquitetura de rede a ser implementada futuramente. 
