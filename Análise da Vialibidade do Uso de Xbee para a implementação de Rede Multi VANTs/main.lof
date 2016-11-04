@@ -5,7 +5,13 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Esquema rede multi VANTs com 4 n\IeC {\'o}s.}}{6}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces M\IeC {\'e}todo de Busca em Espiral.}}{8}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces M\IeC {\'e}todo de Busca Vai e Volta.}}{9}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Varredura Vai e Volta sem Subdivis\IeC {\~a}o de \IeC {\'A}rea.}}{9}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Varredura Vai e Volta com Subdivis\IeC {\~a}o de \IeC {\'A}rea.}}{10}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pagina inicial do software XCTU.}}{15}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Estrutura do \emph {frame} no modo API.}}{15}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

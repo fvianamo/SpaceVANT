@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2016 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 NOV 2016 02:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,21 +785,29 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 
 ]) [3
 
-] (./main.toc)
+] (./main.toc [1
+
+
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1
+ [2] (./main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
 
+ [3
 
 
 ]
 \openout2 = `capitulo1/introducao.aux'.
 
- (./capitulo1/introducao.tex
+
+(./capitulo1/introducao.tex
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 [1
 
 
@@ -813,7 +821,7 @@ Cap\'{\i }tulo 2.
 
 
 
-] <penguin.jpg, id=41, 632.3625pt x 421.575pt>
+] <penguin.jpg, id=46, 632.3625pt x 421.575pt>
 File: penguin.jpg Graphic file (type jpg)
  <use penguin.jpg>
 Package pdftex.def Info: penguin.jpg used on input line 21.
@@ -828,11 +836,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  (./capitulo3/Requisitos.tex
 Cap\'{\i }tulo 3.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 22.
 [5
 
 
 
-] <perdaNo.png, id=48, 642.4pt x 401.5pt>
+] <perdaNo.png, id=55, 642.4pt x 401.5pt>
 File: perdaNo.png Graphic file (type png)
  <use perdaNo.png>
 Package pdftex.def Info: perdaNo.png used on input line 41.
@@ -847,13 +857,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  (./capitulo4/Estrategia.tex
 Cap\'{\i }tulo 4.
-<espiral.png, id=58, 179.67125pt x 137.51375pt>
+<espiral.png, id=64, 179.67125pt x 137.51375pt>
 File: espiral.png Graphic file (type png)
  <use espiral.png>
 Package pdftex.def Info: espiral.png used on input line 10.
 (pdftex.def)             Requested size: 213.39566pt x 163.33704pt.
 
-<vaievolta.png, id=59, 168.63pt x 120.45pt>
+<vaievolta.png, id=65, 168.63pt x 120.45pt>
 File: vaievolta.png Graphic file (type png)
  <use vaievolta.png>
 Package pdftex.def Info: vaievolta.png used on input line 19.
@@ -862,14 +872,14 @@ Package pdftex.def Info: vaievolta.png used on input line 19.
 
 
 
- <./espiral.png>] <semsubdivisao.png, id=64, 172.645pt x 167.62625pt>
+ <./espiral.png>] <semsubdivisao.png, id=70, 172.645pt x 167.62625pt>
 File: semsubdivisao.png Graphic file (type png)
 
 <use semsubdivisao.png>
 Package pdftex.def Info: semsubdivisao.png used on input line 32.
 (pdftex.def)             Requested size: 213.39566pt x 207.19447pt.
  [9 <./vaievolta.png> <./semsubdivisao.png>]
-<comsubdivisao.png, id=70, 236.885pt x 180.675pt>
+<comsubdivisao.png, id=76, 236.885pt x 180.675pt>
 File: comsubdivisao.png Graphic file (type png)
  <use comsubdivisao.png>
 Package pdftex.def Info: comsubdivisao.png used on input line 45.
@@ -884,16 +894,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  (./capitulo5/Xbee.tex
 Cap\'{\i }tulo 5.
-) [11
+[11
 
 
 
 ]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
+ [12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+<xctu.png, id=91, 1022.82124pt x 741.77126pt>
+File: xctu.png Graphic file (type png)
+ <use xctu.png>
+Package pdftex.def Info: xctu.png used on input line 60.
+(pdftex.def)             Requested size: 298.75262pt x 216.65878pt.
+
+<apiframe.png, id=92, 489.83pt x 145.54375pt>
+File: apiframe.png Graphic file (type png)
+ <use apiframe.png>
+Package pdftex.def Info: apiframe.png used on input line 67.
+(pdftex.def)             Requested size: 298.75262pt x 88.77045pt.
+) [14] [15 <./xctu.png> <./apiframe.png>]
 \openout2 = `capitulo6/Procedimento.aux'.
 
  (./capitulo6/Procedimento.tex
 Cap\'{\i }tulo 6.
-) [12
+) [16
 
 
 
@@ -902,7 +931,7 @@ Cap\'{\i }tulo 6.
 
  (./capitulo7/Resultados.tex
 Cap\'{\i }tulo 7.
-) [13
+) [17
 
 
 
@@ -911,11 +940,11 @@ Cap\'{\i }tulo 7.
 
  (./conclusao/conclusao.tex
 Cap\'{\i }tulo 8.
-) [14
+) [18
 
 
 
-] (./main.bbl) [15
+] (./main.bbl) [19
 
 
 ] (./main.aux (./rosto.aux) (./preambulo.aux)
@@ -924,13 +953,13 @@ Cap\'{\i }tulo 8.
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6163 strings out of 493014
- 81898 string characters out of 6133351
- 157283 words of memory out of 5000000
- 9436 multiletter control sequences out of 15000+600000
- 65417 words of font info for 83 fonts, out of 8000000 for 9000
+ 6193 strings out of 493014
+ 82300 string characters out of 6133351
+ 158344 words of memory out of 5000000
+ 9459 multiletter control sequences out of 15000+600000
+ 73616 words of font info for 93 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 41i,13n,35p,923b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,35p,964b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr
@@ -938,10 +967,10 @@ cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr
 sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 210558 bytes).
+Output written on main.pdf (28 pages, 518259 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
