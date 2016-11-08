@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 NOV 2016 02:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 NOV 2016 03:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,24 +651,24 @@ Writing glossary file main.glo
 (./conclusao/conclusao.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 204.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 203.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 20
-4.
+3.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -922,16 +922,61 @@ Package pdftex.def Info: apiframe.png used on input line 67.
 
  (./capitulo6/Procedimento.tex
 Cap\'{\i }tulo 6.
-) [16
+<xbeepro.png, id=101, 602.25pt x 576.1525pt>
+File: xbeepro.png Graphic file (type png)
+ <use xbeepro.png>
+Package pdftex.def Info: xbeepro.png used on input line 14.
+(pdftex.def)             Requested size: 298.75262pt x 285.81615pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<xbeeexplorer.png, id=102, 633.36626pt x 445.665pt>
+File: xbeeexplorer.png Graphic file (type png)
+ <use xbeeexplorer.png>
+Package pdftex.def Info: xbeeexplorer.png used on input line 27.
+(pdftex.def)             Requested size: 298.75262pt x 210.2174pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16
 
 
 
-]
+] [17 <./xbeepro.png> <./xbeeexplorer.png>]
+<phatom.jpg, id=112, 1003.75pt x 680.5425pt>
+File: phatom.jpg Graphic file (type jpg)
+ <use phatom.jpg>
+Package pdftex.def Info: phatom.jpg used on input line 40.
+(pdftex.def)             Requested size: 298.75262pt x 202.55476pt.
+
+<RangeTest.png, id=113, 763.85374pt x 755.82375pt>
+File: RangeTest.png Graphic file (type png)
+ <use RangeTest.png>
+Package pdftex.def Info: RangeTest.png used on input line 53.
+(pdftex.def)             Requested size: 298.75262pt x 295.61197pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<ThroughputTest.png, id=114, 764.8575pt x 753.81625pt>
+File: ThroughputTest.png Graphic file (type png)
+
+<use ThroughputTest.png>
+Package pdftex.def Info: ThroughputTest.png used on input line 60.
+(pdftex.def)             Requested size: 298.75262pt x 294.43575pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18 <./phatom.jpg>] [19 <./RangeTest.png>]) [20 <./ThroughputTest.png>]
 \openout2 = `capitulo7/Resultados.aux'.
 
- (./capitulo7/Resultados.tex
+
+(./capitulo7/Resultados.tex
 Cap\'{\i }tulo 7.
-) [17
+) [21
 
 
 
@@ -940,11 +985,11 @@ Cap\'{\i }tulo 7.
 
  (./conclusao/conclusao.tex
 Cap\'{\i }tulo 8.
-) [18
+) [22
 
 
 
-] (./main.bbl) [19
+] (./main.bbl) [23
 
 
 ] (./main.aux (./rosto.aux) (./preambulo.aux)
@@ -953,10 +998,10 @@ Cap\'{\i }tulo 8.
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6193 strings out of 493014
- 82300 string characters out of 6133351
- 158344 words of memory out of 5000000
- 9459 multiletter control sequences out of 15000+600000
+ 6223 strings out of 493014
+ 82810 string characters out of 6133351
+ 158399 words of memory out of 5000000
+ 9484 multiletter control sequences out of 15000+600000
  73616 words of font info for 93 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  41i,13n,35p,964b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -967,10 +1012,10 @@ cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr
 sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (28 pages, 518259 bytes).
+Output written on main.pdf (32 pages, 3823943 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 158 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
