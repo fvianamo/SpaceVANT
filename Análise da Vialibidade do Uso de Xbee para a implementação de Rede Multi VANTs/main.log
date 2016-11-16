@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 NOV 2016 03:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2016 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,6 +931,8 @@ Package pdftex.def Info: xbeepro.png used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 19.
 <xbeeexplorer.png, id=102, 633.36626pt x 445.665pt>
 File: xbeeexplorer.png Graphic file (type png)
  <use xbeeexplorer.png>
@@ -945,13 +947,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] [17 <./xbeepro.png> <./xbeeexplorer.png>]
-<phatom.jpg, id=112, 1003.75pt x 680.5425pt>
+<phatom.jpg, id=113, 1003.75pt x 680.5425pt>
 File: phatom.jpg Graphic file (type jpg)
  <use phatom.jpg>
 Package pdftex.def Info: phatom.jpg used on input line 40.
 (pdftex.def)             Requested size: 298.75262pt x 202.55476pt.
 
-<RangeTest.png, id=113, 763.85374pt x 755.82375pt>
+<RangeTest.png, id=114, 763.85374pt x 755.82375pt>
 File: RangeTest.png Graphic file (type png)
  <use RangeTest.png>
 Package pdftex.def Info: RangeTest.png used on input line 53.
@@ -960,7 +962,7 @@ Package pdftex.def Info: RangeTest.png used on input line 53.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ThroughputTest.png, id=114, 764.8575pt x 753.81625pt>
+<ThroughputTest.png, id=115, 764.8575pt x 753.81625pt>
 File: ThroughputTest.png Graphic file (type png)
 
 <use ThroughputTest.png>
@@ -970,13 +972,18 @@ Package pdftex.def Info: ThroughputTest.png used on input line 60.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18 <./phatom.jpg>] [19 <./RangeTest.png>]) [20 <./ThroughputTest.png>]
+[18 <./phatom.jpg>] [19 <./RangeTest.png>] [20 <./ThroughputTest.png>]
+<conjExp.jpg, id=127, 3276.24pt x 2457.18pt>
+File: conjExp.jpg Graphic file (type jpg)
+ <use conjExp.jpg>
+Package pdftex.def Info: conjExp.jpg used on input line 96.
+(pdftex.def)             Requested size: 298.75262pt x 224.06114pt.
+) [21 <./conjExp.jpg>]
 \openout2 = `capitulo7/Resultados.aux'.
 
-
-(./capitulo7/Resultados.tex
+ (./capitulo7/Resultados.tex
 Cap\'{\i }tulo 7.
-) [21
+) [22
 
 
 
@@ -985,11 +992,11 @@ Cap\'{\i }tulo 7.
 
  (./conclusao/conclusao.tex
 Cap\'{\i }tulo 8.
-) [22
+) [23
 
 
 
-] (./main.bbl) [23
+] (./main.bbl) [24
 
 
 ] (./main.aux (./rosto.aux) (./preambulo.aux)
@@ -998,24 +1005,25 @@ Cap\'{\i }tulo 8.
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6223 strings out of 493014
- 82810 string characters out of 6133351
- 158399 words of memory out of 5000000
- 9484 multiletter control sequences out of 15000+600000
- 73616 words of font info for 93 fonts, out of 8000000 for 9000
+ 6233 strings out of 493014
+ 82944 string characters out of 6133351
+ 158410 words of memory out of 5000000
+ 9491 multiletter control sequences out of 15000+600000
+ 76384 words of font info for 95 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  41i,13n,35p,964b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr
 8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (32 pages, 3823943 bytes).
+sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (33 pages, 5843672 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 166 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
