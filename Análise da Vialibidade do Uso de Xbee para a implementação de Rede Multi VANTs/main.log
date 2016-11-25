@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 NOV 2016 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 NOV 2016 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -857,33 +857,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  (./capitulo4/Estrategia.tex
 Cap\'{\i }tulo 4.
-<espiral.png, id=64, 179.67125pt x 137.51375pt>
+<espiral.png, id=64, 404.2302pt x 312.6882pt>
 File: espiral.png Graphic file (type png)
  <use espiral.png>
 Package pdftex.def Info: espiral.png used on input line 10.
-(pdftex.def)             Requested size: 213.39566pt x 163.33704pt.
+(pdftex.def)             Requested size: 213.39566pt x 165.07028pt.
 
-<vaievolta.png, id=65, 168.63pt x 120.45pt>
+<vaievolta.png, id=65, 523.7166pt x 379.1766pt>
 File: vaievolta.png Graphic file (type png)
  <use vaievolta.png>
 Package pdftex.def Info: vaievolta.png used on input line 19.
-(pdftex.def)             Requested size: 213.39566pt x 152.42943pt.
+(pdftex.def)             Requested size: 213.39566pt x 154.50298pt.
  [8
 
 
 
- <./espiral.png>] <semsubdivisao.png, id=70, 172.645pt x 167.62625pt>
+ <./espiral.png>] <semsubdivisao.png, id=70, 238.9728pt x 202.8378pt>
 File: semsubdivisao.png Graphic file (type png)
 
 <use semsubdivisao.png>
 Package pdftex.def Info: semsubdivisao.png used on input line 32.
-(pdftex.def)             Requested size: 213.39566pt x 207.19447pt.
+(pdftex.def)             Requested size: 213.39566pt x 181.1286pt.
  [9 <./vaievolta.png> <./semsubdivisao.png>]
-<comsubdivisao.png, id=76, 236.885pt x 180.675pt>
+<comsubdivisao.png, id=76, 369.0588pt x 262.581pt>
 File: comsubdivisao.png Graphic file (type png)
  <use comsubdivisao.png>
 Package pdftex.def Info: comsubdivisao.png used on input line 45.
-(pdftex.def)             Requested size: 213.39566pt x 162.76312pt.
+(pdftex.def)             Requested size: 213.39566pt x 151.83229pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
@@ -1020,7 +1020,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (33 pages, 5843672 bytes).
+Output written on main.pdf (33 pages, 5937704 bytes).
 PDF statistics:
  166 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
