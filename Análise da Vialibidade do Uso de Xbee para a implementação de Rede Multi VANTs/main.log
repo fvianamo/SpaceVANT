@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 NOV 2016 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 NOV 2016 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -983,20 +983,50 @@ Package pdftex.def Info: conjExp.jpg used on input line 96.
 
  (./capitulo7/Resultados.tex
 Cap\'{\i }tulo 7.
-) [22
+[22
 
 
 
-]
+] <sucessRateChao.png, id=135, 418.6842pt x 225.9642pt>
+File: sucessRateChao.png Graphic file (type png)
+
+<use sucessRateChao.png>
+Package pdftex.def Info: sucessRateChao.png used on input line 18.
+(pdftex.def)             Requested size: 298.75262pt x 161.24596pt.
+
+<throughputResultChao.png, id=136, 417.2388pt x 241.8636pt>
+File: throughputResultChao.png Graphic file (type png)
+
+<use throughputResultChao.png>
+Package pdftex.def Info: throughputResultChao.png used on input line 25.
+(pdftex.def)             Requested size: 298.75262pt x 173.1858pt.
+ [23 <./sucessRateChao.png> <./throughputResultChao.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+<rangeResultAr.png, id=142, 395.5578pt x 244.7544pt>
+File: rangeResultAr.png Graphic file (type png)
+ <use rangeResultAr.png>
+Package pdftex.def Info: rangeResultAr.png used on input line 46.
+(pdftex.def)             Requested size: 298.75262pt x 184.86499pt.
+
+<throughputResultAr.png, id=143, 394.5942pt x 238.9728pt>
+File: throughputResultAr.png Graphic file (type png)
+
+<use throughputResultAr.png>
+Package pdftex.def Info: throughputResultAr.png used on input line 53.
+(pdftex.def)             Requested size: 298.75262pt x 180.94296pt.
+) [24] [25 <./rangeResultAr.png> <./throughputResultAr.png>]
 \openout2 = `conclusao/conclusao.aux'.
 
  (./conclusao/conclusao.tex
 Cap\'{\i }tulo 8.
-) [23
+) [26
 
 
 
-] (./main.bbl) [24
+] (./main.bbl) [27
 
 
 ] (./main.aux (./rosto.aux) (./preambulo.aux)
@@ -1005,10 +1035,10 @@ Cap\'{\i }tulo 8.
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6233 strings out of 493014
- 82944 string characters out of 6133351
- 158410 words of memory out of 5000000
- 9491 multiletter control sequences out of 15000+600000
+ 6257 strings out of 493014
+ 83495 string characters out of 6133351
+ 158454 words of memory out of 5000000
+ 9511 multiletter control sequences out of 15000+600000
  76384 words of font info for 95 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  41i,13n,35p,964b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1020,10 +1050,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (33 pages, 5937704 bytes).
+Output written on main.pdf (36 pages, 6089688 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 184 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

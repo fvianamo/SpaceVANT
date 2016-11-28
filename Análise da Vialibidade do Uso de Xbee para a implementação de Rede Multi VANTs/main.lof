@@ -20,4 +20,8 @@
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Tela do teste de taxa de transmiss\IeC {\~a}o (\emph {throughput}).}}{20}
 \contentsline {figure}{\numberline {6.6}{\ignorespaces \emph {Phantom 3 Standard} preparado para experimentos.}}{21}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Gr\IeC {\'a}fico da taxa de sucesso de envio \emph {versus} dist\IeC {\^a}ncia entre os dois n\IeC {\'o}s da rede XBee.}}{23}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Gr\IeC {\'a}fico da taxa de transmiss\IeC {\~a}o de envio \emph {versus} dist\IeC {\^a}ncia entre os dois n\IeC {\'o}s da rede XBee.}}{23}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Gr\IeC {\'a}fico do RSSI local e remoto \emph {versus} dist\IeC {\^a}ncia entre os dois n\IeC {\'o}s da rede XBee.}}{25}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Gr\IeC {\'a}fico da taxa de transmiss\IeC {\~a}o de envio \emph {versus} dist\IeC {\^a}ncia entre os dois n\IeC {\'o}s da rede XBee.}}{25}
 \addvspace {10\p@ }
