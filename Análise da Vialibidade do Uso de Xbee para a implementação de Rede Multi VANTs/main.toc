@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {6.3.1}Teste de Ch\IeC {\~a}o}{20}
 \contentsline {subsection}{\numberline {6.3.2}Teste em Ar a Dist\IeC {\^a}ncia Fixa}{21}
 \contentsline {chapter}{\numberline {7}Resultados Experimentais}{22}
-\contentsline {section}{\numberline {7.1}Teste de Ch\IeC {\~a}o}{22}
-\contentsline {section}{\numberline {7.2}Teste em Ar a Dist\IeC {\^a}ncia Fixa}{23}
-\contentsline {chapter}{\numberline {8}Conclus\~{a}o}{26}
-\contentsline {chapter}{Refer\^{e}ncias bibliogr\'{a}ficas}{27}
+\contentsline {section}{\numberline {7.1}Teste em Solo}{22}
+\contentsline {section}{\numberline {7.2}Teste em Ar a Dist\IeC {\^a}ncia Fixa}{24}
+\contentsline {chapter}{\numberline {8}Conclus\~{a}o}{27}
+\contentsline {chapter}{Refer\^{e}ncias bibliogr\'{a}ficas}{28}

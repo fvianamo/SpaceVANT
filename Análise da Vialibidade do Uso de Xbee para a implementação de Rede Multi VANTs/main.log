@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 NOV 2016 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 NOV 2016 23:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -824,10 +824,10 @@ Cap\'{\i }tulo 2.
 ] <penguin.jpg, id=46, 632.3625pt x 421.575pt>
 File: penguin.jpg Graphic file (type jpg)
  <use penguin.jpg>
-Package pdftex.def Info: penguin.jpg used on input line 21.
+Package pdftex.def Info: penguin.jpg used on input line 19.
 (pdftex.def)             Requested size: 298.75262pt x 199.1695pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
@@ -837,7 +837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
  (./capitulo3/Requisitos.tex
 Cap\'{\i }tulo 3.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 22.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 8.
 [5
 
 
@@ -845,10 +845,10 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 ] <perdaNo.png, id=55, 642.4pt x 401.5pt>
 File: perdaNo.png Graphic file (type png)
  <use perdaNo.png>
-Package pdftex.def Info: perdaNo.png used on input line 41.
+Package pdftex.def Info: perdaNo.png used on input line 27.
 (pdftex.def)             Requested size: 298.75262pt x 186.7262pt.
  [6 <./perdaNo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
@@ -1011,22 +1011,22 @@ File: rangeResultAr.png Graphic file (type png)
 Package pdftex.def Info: rangeResultAr.png used on input line 46.
 (pdftex.def)             Requested size: 298.75262pt x 184.86499pt.
 
-<throughputResultAr.png, id=143, 394.5942pt x 238.9728pt>
+[24] <throughputResultAr.png, id=146, 394.5942pt x 238.9728pt>
 File: throughputResultAr.png Graphic file (type png)
 
 <use throughputResultAr.png>
 Package pdftex.def Info: throughputResultAr.png used on input line 53.
 (pdftex.def)             Requested size: 298.75262pt x 180.94296pt.
-) [24] [25 <./rangeResultAr.png> <./throughputResultAr.png>]
+) [25 <./rangeResultAr.png>] [26 <./throughputResultAr.png>]
 \openout2 = `conclusao/conclusao.aux'.
 
  (./conclusao/conclusao.tex
 Cap\'{\i }tulo 8.
-) [26
+) [27
 
 
 
-] (./main.bbl) [27
+] (./main.bbl) [28
 
 
 ] (./main.aux (./rosto.aux) (./preambulo.aux)
@@ -1035,10 +1035,10 @@ Cap\'{\i }tulo 8.
 ) (./capitulo6/Procedimento.aux) (./capitulo7/Resultados.aux)
 (./conclusao/conclusao.aux)) ) 
 Here is how much of TeX's memory you used:
- 6257 strings out of 493014
- 83495 string characters out of 6133351
- 158454 words of memory out of 5000000
- 9511 multiletter control sequences out of 15000+600000
+ 6261 strings out of 493014
+ 83579 string characters out of 6133351
+ 158523 words of memory out of 5000000
+ 9515 multiletter control sequences out of 15000+600000
  76384 words of font info for 95 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  41i,13n,35p,964b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1050,10 +1050,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (36 pages, 6089688 bytes).
+Output written on main.pdf (37 pages, 6092149 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 190 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
