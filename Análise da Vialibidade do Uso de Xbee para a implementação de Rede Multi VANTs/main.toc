@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {6.1.3}XCTU}{18}
 \contentsline {section}{\numberline {6.2}Local dos Experimentos}{19}
 \contentsline {section}{\numberline {6.3}Experimentos Realizados}{19}
-\contentsline {subsection}{\numberline {6.3.1}Teste de Ch\IeC {\~a}o}{20}
+\contentsline {subsection}{\numberline {6.3.1}Teste em Solo}{20}
 \contentsline {subsection}{\numberline {6.3.2}Teste em Ar a Dist\IeC {\^a}ncia Fixa}{21}
 \contentsline {chapter}{\numberline {7}Resultados Experimentais}{22}
 \contentsline {section}{\numberline {7.1}Teste em Solo}{22}
