@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 NOV 2016 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 DEC 2016 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1005,13 +1005,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-<rangeResultAr.png, id=142, 395.5578pt x 244.7544pt>
+[24] <rangeResultAr.png, id=145, 395.5578pt x 244.7544pt>
 File: rangeResultAr.png Graphic file (type png)
- <use rangeResultAr.png>
+
+<use rangeResultAr.png>
 Package pdftex.def Info: rangeResultAr.png used on input line 46.
 (pdftex.def)             Requested size: 298.75262pt x 184.86499pt.
 
-[24] <throughputResultAr.png, id=146, 394.5942pt x 238.9728pt>
+<throughputResultAr.png, id=146, 394.5942pt x 238.9728pt>
 File: throughputResultAr.png Graphic file (type png)
 
 <use throughputResultAr.png>
@@ -1041,7 +1042,7 @@ Here is how much of TeX's memory you used:
  9515 multiletter control sequences out of 15000+600000
  76384 words of font info for 95 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 41i,13n,35p,964b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,35p,966b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr
@@ -1050,7 +1051,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (37 pages, 6092149 bytes).
+Output written on main.pdf (37 pages, 6092393 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
